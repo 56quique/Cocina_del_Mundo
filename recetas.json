@@ -1,0 +1,6462 @@
+{
+ "version": "0.4.0",
+ "paises": [
+  {
+   "codigo": "NO",
+   "nombre": "Noruega",
+   "bandera": "🇳🇴",
+   "region": "Europa",
+   "color": "#B93131"
+  },
+  {
+   "codigo": "JP",
+   "nombre": "Japón",
+   "bandera": "🇯🇵",
+   "region": "Asia",
+   "color": "#31B94E"
+  },
+  {
+   "codigo": "MX",
+   "nombre": "México",
+   "bandera": "🇲🇽",
+   "region": "América",
+   "color": "#6B31B9"
+  },
+  {
+   "codigo": "IT",
+   "nombre": "Italia",
+   "bandera": "🇮🇹",
+   "region": "Europa",
+   "color": "#B98731"
+  },
+  {
+   "codigo": "IN",
+   "nombre": "India",
+   "bandera": "🇮🇳",
+   "region": "Asia",
+   "color": "#31B9A4"
+  },
+  {
+   "codigo": "PE",
+   "nombre": "Perú",
+   "bandera": "🇵🇪",
+   "region": "América",
+   "color": "#B931B2"
+  },
+  {
+   "codigo": "GR",
+   "nombre": "Grecia",
+   "bandera": "🇬🇷",
+   "region": "Europa",
+   "color": "#96B931"
+  },
+  {
+   "codigo": "MA",
+   "nombre": "Marruecos",
+   "bandera": "🇲🇦",
+   "region": "África",
+   "color": "#3179B9"
+  },
+  {
+   "codigo": "DE",
+   "nombre": "Alemania",
+   "bandera": "🇩🇪",
+   "region": "Europa",
+   "color": "#B9315C"
+  },
+  {
+   "codigo": "PL",
+   "nombre": "Polonia",
+   "bandera": "🇵🇱",
+   "region": "Europa",
+   "color": "#40B931"
+  },
+  {
+   "codigo": "UA",
+   "nombre": "Ucrania",
+   "bandera": "🇺🇦",
+   "region": "Europa",
+   "color": "#4031B9"
+  },
+  {
+   "codigo": "SE",
+   "nombre": "Suecia",
+   "bandera": "🇸🇪",
+   "region": "Europa",
+   "color": "#B95C31"
+  },
+  {
+   "codigo": "PY",
+   "nombre": "Paraguay",
+   "bandera": "🇵🇾",
+   "region": "América",
+   "color": "#31B979"
+  },
+  {
+   "codigo": "BR",
+   "nombre": "Brasil",
+   "bandera": "🇧🇷",
+   "region": "América",
+   "color": "#9631B9"
+  },
+  {
+   "codigo": "ES",
+   "nombre": "España",
+   "bandera": "🇪🇸",
+   "region": "Europa",
+   "color": "#B9B231"
+  },
+  {
+   "codigo": "FR",
+   "nombre": "Francia",
+   "bandera": "🇫🇷",
+   "region": "Europa",
+   "color": "#31A4B9"
+  },
+  {
+   "codigo": "TH",
+   "nombre": "Tailandia",
+   "bandera": "🇹🇭",
+   "region": "Asia",
+   "color": "#B93187"
+  },
+  {
+   "codigo": "KR",
+   "nombre": "Corea",
+   "bandera": "🇰🇷",
+   "region": "Asia",
+   "color": "#6BB931"
+  },
+  {
+   "codigo": "TR",
+   "nombre": "Turquía",
+   "bandera": "🇹🇷",
+   "region": "Asia",
+   "color": "#314EB9"
+  }
+ ],
+ "recetas": [
+  {
+   "id": "NO-01",
+   "pais": "NO",
+   "nombre": "Fårikål",
+   "descripcion": "Cordero con repollo y pimienta en grano, plato nacional",
+   "tipo": "Guiso",
+   "tiempoTexto": "3 h",
+   "tiempoMin": 180,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": true,
+   "porciones": 4,
+   "notaPorciones": "Usá una olla donde entren todas las capas. Los tiempos de cocción no cambian al modificar las porciones.",
+   "ingredientes": [
+    {
+     "id": "i1",
+     "nombre": "Cordero con hueso (paleta, cuello o costillar), en trozos",
+     "cantidad": 1,
+     "unidad": "kg"
+    },
+    {
+     "id": "i2",
+     "nombre": "Repollo blanco",
+     "cantidad": 1,
+     "unidad": "kg"
+    },
+    {
+     "id": "i3",
+     "nombre": "Harina",
+     "cantidad": 2,
+     "unidad": "cda"
+    },
+    {
+     "id": "i4",
+     "nombre": "Pimienta negra en grano",
+     "cantidad": 1,
+     "unidad": "cda"
+    },
+    {
+     "id": "i5",
+     "nombre": "Sal gruesa",
+     "cantidad": 2,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i6",
+     "nombre": "Agua",
+     "cantidad": 250,
+     "unidad": "ml"
+    },
+    {
+     "id": "i7",
+     "nombre": "Papas",
+     "cantidad": 800,
+     "unidad": "g",
+     "nota": "para acompañar, hervidas"
+    }
+   ],
+   "pasos": [
+    {
+     "titulo": "Preparar",
+     "texto": "Cortá el repollo en gajos grandes, dejando el centro para que no se desarme. Cortá el cordero en trozos con hueso. Necesitás {i1} de cordero y {i2} de repollo."
+    },
+    {
+     "titulo": "Armar las capas",
+     "texto": "En una olla grande poné una capa de cordero y encima una de repollo. Espolvoreá con parte de {i3} de harina, {i5} de sal y {i4} de pimienta en grano. Repetí hasta terminar los ingredientes, cerrando con repollo."
+    },
+    {
+     "titulo": "Agregar el agua",
+     "texto": "Volcá {i6} de agua por el borde de la olla. No hace falta más: el repollo suelta mucho líquido."
+    },
+    {
+     "titulo": "Llevar a hervor",
+     "texto": "Tapá y llevá a hervor a fuego medio. Cuando hierva, bajá al mínimo.",
+     "timerSeg": 600
+    },
+    {
+     "titulo": "Cocción lenta",
+     "texto": "Cociná tapado a fuego bajo, sin revolver, hasta que la carne se desprenda del hueso.",
+     "timerSeg": 7200
+    },
+    {
+     "titulo": "Hervir las papas",
+     "texto": "Durante la última media hora, pelá {i7} de papas y hervilas con sal hasta que estén tiernas.",
+     "timerSeg": 1500
+    },
+    {
+     "titulo": "Servir",
+     "texto": "Servilo bien caliente en plato hondo, con las papas hervidas al lado. Probá y corregí la sal al final."
+    }
+   ],
+   "consejos": [
+    "Mejora de un día para otro: recalentado al día siguiente tiene más sabor.",
+    "Usá cortes con hueso y algo de grasa: el caldo queda más sabroso.",
+    "La pimienta se deja en grano y entera. Se aparta al comer, como un laurel."
+   ],
+   "reemplazos": [
+    "Si no conseguís cordero, la paleta de cordero congelada o el cuello funcionan igual. También se hace con ternera con hueso, aunque cambia el sabor."
+   ]
+  },
+  {
+   "id": "NO-02",
+   "pais": "NO",
+   "nombre": "Kjøttkaker",
+   "descripcion": "Albóndigas grandes de carne con salsa marrón y papas",
+   "tipo": "Principal",
+   "tiempoTexto": "1 h 10",
+   "tiempoMin": 70,
+   "dificultad": "Media",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": true,
+   "porciones": 4,
+   "ingredientes": [
+    {
+     "id": "i1",
+     "nombre": "Carne picada de res",
+     "cantidad": 500,
+     "unidad": "g",
+     "nota": "mejor si tiene algo de grasa"
+    },
+    {
+     "id": "i2",
+     "nombre": "Cebolla pequeña, rallada",
+     "cantidad": 1,
+     "unidad": "u",
+     "plural": "cebollas pequeñas, ralladas"
+    },
+    {
+     "id": "i3",
+     "nombre": "Huevo",
+     "cantidad": 1,
+     "unidad": "u",
+     "plural": "huevos"
+    },
+    {
+     "id": "i4",
+     "nombre": "Harina",
+     "cantidad": 2,
+     "unidad": "cda"
+    },
+    {
+     "id": "i5",
+     "nombre": "Leche",
+     "cantidad": 100,
+     "unidad": "ml"
+    },
+    {
+     "id": "i6",
+     "nombre": "Sal",
+     "cantidad": 1,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i7",
+     "nombre": "Pimienta negra molida",
+     "cantidad": 0.5,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i8",
+     "nombre": "Nuez moscada",
+     "cantidad": 1,
+     "unidad": "pizca"
+    },
+    {
+     "id": "i9",
+     "nombre": "Manteca",
+     "cantidad": 30,
+     "unidad": "g",
+     "nota": "para dorar"
+    },
+    {
+     "id": "i10",
+     "nombre": "Manteca",
+     "cantidad": 30,
+     "unidad": "g",
+     "nota": "para la salsa"
+    },
+    {
+     "id": "i11",
+     "nombre": "Harina",
+     "cantidad": 3,
+     "unidad": "cda",
+     "nota": "para la salsa"
+    },
+    {
+     "id": "i12",
+     "nombre": "Caldo de carne caliente",
+     "cantidad": 500,
+     "unidad": "ml"
+    },
+    {
+     "id": "i13",
+     "nombre": "Crema de leche",
+     "cantidad": 50,
+     "unidad": "ml"
+    },
+    {
+     "id": "i14",
+     "nombre": "Salsa de soja",
+     "cantidad": 1,
+     "unidad": "cdta",
+     "nota": "para dar color a la salsa"
+    },
+    {
+     "id": "i15",
+     "nombre": "Papas",
+     "cantidad": 800,
+     "unidad": "g",
+     "nota": "para hervir"
+    },
+    {
+     "id": "i16",
+     "nombre": "Mermelada de arándanos o de frutos rojos",
+     "cantidad": 4,
+     "unidad": "cda",
+     "nota": "para acompañar"
+    }
+   ],
+   "pasos": [
+    {
+     "titulo": "Preparar la mezcla",
+     "texto": "En un bowl poné {i1} de carne picada, la cebolla rallada, el huevo, {i4} de harina, {i5} de leche, {i6} de sal, {i7} de pimienta y {i8} de nuez moscada. Amasá con las manos 2 minutos, hasta que la mezcla se ponga pegajosa y lisa."
+    },
+    {
+     "titulo": "Dejar reposar",
+     "texto": "Tapá la mezcla y llevala a la heladera. El reposo la hace más firme y fácil de formar.",
+     "timerSeg": 900
+    },
+    {
+     "titulo": "Hervir las papas",
+     "texto": "Mientras la mezcla reposa, pelá {i15} de papas y hervilas con sal hasta que estén tiernas.",
+     "timerSeg": 1500
+    },
+    {
+     "titulo": "Formar los kjøttkaker",
+     "texto": "Con las manos mojadas, formá bolas del tamaño de una pelota de tenis y aplanalas apenas, para que queden como hamburguesas gruesas y ovaladas, de unos 2 cm de alto."
+    },
+    {
+     "titulo": "Dorar",
+     "texto": "En una sartén grande derretí {i9} de manteca a fuego medio-alto. Dorá los kjøttkaker unos 4 minutos de cada lado. No tienen que cocinarse del todo: se terminan en la salsa. Pasalos a un plato.",
+     "timerSeg": 480
+    },
+    {
+     "titulo": "Hacer la salsa",
+     "texto": "En la misma sartén, sin lavarla, derretí {i10} de manteca. Agregá {i11} de harina y cociná 1 minuto revolviendo. Sumá {i12} de caldo de a poco, batiendo para que no se hagan grumos. Agregá {i13} de crema y {i14} de salsa de soja. Dejá hervir hasta que espese.",
+     "timerSeg": 300
+    },
+    {
+     "titulo": "Terminar la cocción",
+     "texto": "Devolvé los kjøttkaker a la sartén, tapá y cociná a fuego bajo hasta que estén cocidos por dentro.",
+     "timerSeg": 600
+    },
+    {
+     "titulo": "Servir",
+     "texto": "Serví los kjøttkaker bañados en salsa, con las papas hervidas y {i16} de mermelada al costado."
+    }
+   ],
+   "consejos": [
+    "Si querés una textura más suave, pasá la carne dos veces por la procesadora o amasala más tiempo.",
+    "Probá la mezcla antes de formar todo: cociná una cucharada en la sartén y corregí la sal.",
+    "La salsa tiene que quedar fluida, no espesa como una crema: si se pasa, agregale un poco de caldo."
+   ],
+   "reemplazos": [
+    "Mermelada de arándanos rojos (tyttebær): se reemplaza por mermelada de arándanos azules, de frutos rojos o de frambuesa.",
+    "Carne picada: se puede hacer mitad res y mitad cerdo para que quede más jugosa."
+   ],
+   "notaPorciones": "Si hacés más porciones, doraló en tandas para no llenar la sartén. Los tiempos de cocción no cambian al modificar las porciones."
+  },
+  {
+   "id": "NO-03",
+   "pais": "NO",
+   "nombre": "Pinnekjøtt",
+   "descripcion": "Costillas de cordero curadas en sal y cocidas al vapor, con puré",
+   "tipo": "Principal",
+   "tiempoTexto": "3 h 30 + curado",
+   "tiempoMin": 210,
+   "dificultad": "Media",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": true,
+   "porciones": 4,
+   "ingredientes": [
+    {
+     "id": "i1",
+     "nombre": "Costillar de cordero, cortado en costillas separadas",
+     "cantidad": 1.5,
+     "unidad": "kg"
+    },
+    {
+     "id": "i2",
+     "nombre": "Sal gruesa",
+     "cantidad": 3,
+     "unidad": "cda",
+     "nota": "para curar"
+    },
+    {
+     "id": "i3",
+     "nombre": "Azúcar",
+     "cantidad": 1,
+     "unidad": "cda",
+     "nota": "para curar"
+    },
+    {
+     "id": "i4",
+     "nombre": "Agua",
+     "cantidad": 400,
+     "unidad": "ml",
+     "nota": "para el fondo de la olla"
+    },
+    {
+     "id": "i5",
+     "nombre": "Papas",
+     "cantidad": 500,
+     "unidad": "g",
+     "nota": "para el puré"
+    },
+    {
+     "id": "i6",
+     "nombre": "Zapallo anco",
+     "cantidad": 500,
+     "unidad": "g",
+     "nota": "para el puré"
+    },
+    {
+     "id": "i7",
+     "nombre": "Manteca",
+     "cantidad": 30,
+     "unidad": "g"
+    },
+    {
+     "id": "i8",
+     "nombre": "Sal fina",
+     "cantidad": 1,
+     "unidad": "cdta",
+     "nota": "para el puré"
+    },
+    {
+     "id": "i9",
+     "nombre": "Nuez moscada",
+     "cantidad": 1,
+     "unidad": "pizca"
+    }
+   ],
+   "pasos": [
+    {
+     "titulo": "Curar las costillas",
+     "texto": "Pedile al carnicero que corte {i1} de costillar entre cada hueso. Mezclá {i2} de sal gruesa con {i3} de azúcar y frotá todas las costillas. Guardalas tapadas en la heladera durante 24 horas. Poné una alarma en el celu, porque este paso arranca el día anterior."
+    },
+    {
+     "titulo": "Sacar el exceso de sal",
+     "texto": "Lavá las costillas bajo agua fría y dejalas en remojo en agua fría. Cambiá el agua a la mitad del tiempo.",
+     "timerSeg": 7200
+    },
+    {
+     "titulo": "Armar la vaporera",
+     "texto": "En una olla grande poné {i4} de agua. Apoyá adentro una rejilla o un colador de metal, a más altura que el agua. Acomodá las costillas encima, sin que toquen el líquido."
+    },
+    {
+     "titulo": "Cocinar al vapor",
+     "texto": "Tapá y cociná a fuego medio-bajo, con el agua en hervor suave. Controlá el nivel de vez en cuando y agregá agua caliente si se está secando. Están listas cuando la carne se separa fácil del hueso.",
+     "timerSeg": 5400
+    },
+    {
+     "titulo": "Hacer el puré",
+     "texto": "Durante la última media hora, pelá {i5} de papas y {i6} de zapallo anco, cortalos en cubos y hervilos hasta que estén tiernos. Pisalos con {i7} de manteca, {i8} de sal fina y {i9} de nuez moscada.",
+     "timerSeg": 1200
+    },
+    {
+     "titulo": "Servir",
+     "texto": "Serví las costillas con el puré. El líquido del fondo de la olla se puede servir como jugo, pero probalo antes porque queda muy salado: si hace falta, rebajalo con un poco de agua caliente."
+    }
+   ],
+   "consejos": [
+    "El plato tradicional se come en Navidad en la costa oeste de Noruega, acompañado con cerveza o aquavit.",
+    "El curado tiene que hacerse siempre en la heladera, en un recipiente tapado.",
+    "Si las costillas te quedan muy saladas, la próxima vez dejalas más tiempo en remojo."
+   ],
+   "reemplazos": [
+    "El pinnekjøtt original usa costillas secadas y ahumadas durante semanas, que no se consiguen en Argentina. Esta versión cura las costillas en sal durante 24 horas para acercarse al sabor.",
+    "Se cocina tradicionalmente sobre ramitas de abedul. Una rejilla o un colador de metal cumplen la misma función.",
+    "El puré original es de nabo sueco (kålrot). Con zapallo anco y papa queda parecido."
+   ],
+   "notaPorciones": "Usá una olla donde entren todas las costillas sin apretarse. Los tiempos de cocción no cambian al modificar las porciones."
+  },
+  {
+   "id": "NO-04",
+   "pais": "NO",
+   "nombre": "Ribbe",
+   "descripcion": "Panceta de cerdo asada con corteza crujiente",
+   "tipo": "Principal",
+   "tiempoTexto": "3 h",
+   "tiempoMin": 180,
+   "dificultad": "Media",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": true,
+   "porciones": 4,
+   "ingredientes": [
+    {
+     "id": "i1",
+     "nombre": "Panceta de cerdo con cuero",
+     "cantidad": 1.2,
+     "unidad": "kg"
+    },
+    {
+     "id": "i2",
+     "nombre": "Sal gruesa",
+     "cantidad": 2,
+     "unidad": "cda"
+    },
+    {
+     "id": "i3",
+     "nombre": "Pimienta negra molida",
+     "cantidad": 1,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i4",
+     "nombre": "Clavo de olor molido",
+     "cantidad": 0.25,
+     "unidad": "cdta",
+     "nota": "opcional"
+    },
+    {
+     "id": "i5",
+     "nombre": "Agua",
+     "cantidad": 250,
+     "unidad": "ml",
+     "nota": "para la fuente"
+    },
+    {
+     "id": "i6",
+     "nombre": "Repollo colorado, cortado fino",
+     "cantidad": 500,
+     "unidad": "g"
+    },
+    {
+     "id": "i7",
+     "nombre": "Manteca",
+     "cantidad": 30,
+     "unidad": "g"
+    },
+    {
+     "id": "i8",
+     "nombre": "Azúcar",
+     "cantidad": 2,
+     "unidad": "cda"
+    },
+    {
+     "id": "i9",
+     "nombre": "Vinagre de manzana",
+     "cantidad": 3,
+     "unidad": "cda"
+    },
+    {
+     "id": "i10",
+     "nombre": "Agua",
+     "cantidad": 100,
+     "unidad": "ml",
+     "nota": "para el repollo"
+    },
+    {
+     "id": "i11",
+     "nombre": "Sal",
+     "cantidad": 0.5,
+     "unidad": "cdta",
+     "nota": "para el repollo"
+    },
+    {
+     "id": "i12",
+     "nombre": "Papas",
+     "cantidad": 800,
+     "unidad": "g",
+     "nota": "para hervir"
+    }
+   ],
+   "pasos": [
+    {
+     "titulo": "Preparar el cuero",
+     "texto": "Secá {i1} de panceta con papel de cocina, sobre todo el cuero. Con un cuchillo bien filoso hacé cortes paralelos cada 1 cm, sin llegar a la carne. Frotá {i2} de sal gruesa solo sobre el cuero, metiéndola en los cortes. En la carne, frotá {i3} de pimienta y {i4} de clavo. Si podés, dejala una noche destapada en la heladera: el cuero se seca y queda más crocante."
+    },
+    {
+     "titulo": "Armar la fuente",
+     "texto": "Precalentá el horno a 180 °C. Poné la panceta con el cuero hacia arriba sobre una rejilla, y la rejilla sobre una fuente con {i5} de agua en el fondo."
+    },
+    {
+     "titulo": "Asar lento",
+     "texto": "Llevá al horno, sin tapar. La carne se cocina despacio y se ablanda.",
+     "timerSeg": 7200
+    },
+    {
+     "titulo": "Cocinar el repollo colorado",
+     "texto": "Cuando falten unos 45 minutos para terminar el asado, derretí {i7} de manteca en una olla. Agregá {i6} de repollo, {i8} de azúcar, {i9} de vinagre, {i10} de agua y {i11} de sal. Tapá y cociná a fuego bajo, revolviendo de a ratos, hasta que esté tierno.",
+     "timerSeg": 2400
+    },
+    {
+     "titulo": "Hervir las papas",
+     "texto": "Pelá {i12} de papas y hervilas con sal hasta que estén tiernas.",
+     "timerSeg": 1500
+    },
+    {
+     "titulo": "Crocante final",
+     "texto": "Subí el horno al máximo (250 °C) o prendé el grill. Cociná sin tapar hasta que el cuero burbujee y se infle. Mirá seguido, porque pasa de dorado a quemado rápido.",
+     "timerSeg": 1080
+    },
+    {
+     "titulo": "Reposar y servir",
+     "texto": "Sacá la panceta y dejala reposar. Cortala con un cuchillo de sierra o con tijera de cocina y serví con el repollo colorado y las papas.",
+     "timerSeg": 600
+    }
+   ],
+   "consejos": [
+    "Cuidado al sacar la fuente del horno: el agua y la grasa están muy calientes.",
+    "El secreto del cuero crocante es que esté bien seco antes de entrar al horno.",
+    "Es el plato navideño típico del este de Noruega, aunque se come también en otras fiestas."
+   ],
+   "reemplazos": [
+    "Panceta con cuero: pedila en la carnicería como «panceta de cerdo con cuero» o «tira de cerdo con cuero».",
+    "Vinagre de manzana: se puede usar vinagre de vino blanco.",
+    "Si el cuero no se infla, dejalo 5 minutos más en el grill, a unos 10 cm de la resistencia."
+   ],
+   "notaPorciones": "El tiempo de asado depende más del grosor de la pieza que del peso. Los tiempos de cocción no cambian al modificar las porciones."
+  },
+  {
+   "id": "NO-05",
+   "pais": "NO",
+   "nombre": "Lapskaus",
+   "descripcion": "Guiso espeso de carne, papas y verduras de raíz",
+   "tipo": "Guiso",
+   "tiempoTexto": "1 h 45",
+   "tiempoMin": 105,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": true,
+   "porciones": 4,
+   "ingredientes": [
+    {
+     "id": "i1",
+     "nombre": "Paleta o aguja de res, en cubos de 2 cm",
+     "cantidad": 500,
+     "unidad": "g"
+    },
+    {
+     "id": "i2",
+     "nombre": "Manteca",
+     "cantidad": 20,
+     "unidad": "g"
+    },
+    {
+     "id": "i3",
+     "nombre": "Cebolla grande, picada",
+     "cantidad": 1,
+     "unidad": "u",
+     "plural": "cebollas grandes, picadas"
+    },
+    {
+     "id": "i4",
+     "nombre": "Caldo de carne",
+     "cantidad": 900,
+     "unidad": "ml"
+    },
+    {
+     "id": "i5",
+     "nombre": "Laurel",
+     "cantidad": 2,
+     "unidad": "hoja"
+    },
+    {
+     "id": "i6",
+     "nombre": "Zanahorias, en cubos de 2 cm",
+     "cantidad": 250,
+     "unidad": "g"
+    },
+    {
+     "id": "i7",
+     "nombre": "Zapallo anco (o nabo), en cubos de 2 cm",
+     "cantidad": 250,
+     "unidad": "g"
+    },
+    {
+     "id": "i8",
+     "nombre": "Papas, en cubos de 2 cm",
+     "cantidad": 600,
+     "unidad": "g"
+    },
+    {
+     "id": "i9",
+     "nombre": "Pimienta negra molida",
+     "cantidad": 0.5,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i10",
+     "nombre": "Sal",
+     "cantidad": 1,
+     "unidad": "cdta",
+     "nota": "probá antes: el caldo ya trae sal"
+    },
+    {
+     "id": "i11",
+     "nombre": "Perejil picado",
+     "cantidad": null,
+     "unidad": "",
+     "nota": "para servir"
+    }
+   ],
+   "pasos": [
+    {
+     "titulo": "Preparar la carne",
+     "texto": "Cortá {i1} de carne en cubos de unos 2 cm y secalos con papel de cocina, para que se doren bien."
+    },
+    {
+     "titulo": "Dorar",
+     "texto": "En una olla grande derretí {i2} de manteca a fuego medio-alto. Dorá la carne en tandas, sin amontonar. Retirala a un plato.",
+     "timerSeg": 360
+    },
+    {
+     "titulo": "Sofreír la cebolla",
+     "texto": "En la misma olla agregá la cebolla picada y cociná hasta que se ablande.",
+     "timerSeg": 180
+    },
+    {
+     "titulo": "Cocinar la carne",
+     "texto": "Devolvé la carne a la olla. Agregá {i4} de caldo, {i5} de laurel y {i9} de pimienta. Llevá a hervor, bajá el fuego, tapá y cociná hasta que la carne esté casi tierna.",
+     "timerSeg": 3600
+    },
+    {
+     "titulo": "Sumar las verduras",
+     "texto": "Agregá {i6} de zanahoria, {i7} de zapallo y {i8} de papas. Tapá y cociná hasta que las verduras estén tiernas.",
+     "timerSeg": 1500
+    },
+    {
+     "titulo": "Espesar",
+     "texto": "Aplastá algunos cubos de papa y de zapallo contra la pared de la olla: eso espesa el guiso. Probá y corregí la sal, empezando con {i10}. Cociná destapado unos minutos más.",
+     "timerSeg": 300
+    },
+    {
+     "titulo": "Servir",
+     "texto": "Serví bien caliente, con perejil picado por encima."
+    }
+   ],
+   "consejos": [
+    "El lapskaus mejora al día siguiente. Se guarda bien en la heladera 2 o 3 días.",
+    "La consistencia correcta es la de un guiso espeso: tiene que sostenerse sobre la cuchara.",
+    "Es un plato de aprovechamiento, así que se puede hacer con restos de carne cocida: en ese caso se agrega al final."
+   ],
+   "reemplazos": [
+    "Nabo sueco (kålrot): reemplazalo por zapallo anco o por nabo común.",
+    "Paleta o aguja: sirve cualquier corte para guiso, como roast beef o osobuco sin hueso."
+   ],
+   "notaPorciones": "Usá una olla grande para que las verduras cocinen parejo. Los tiempos de cocción no cambian al modificar las porciones."
+  },
+  {
+   "id": "NO-06",
+   "pais": "NO",
+   "nombre": "Raspeballer (komle)",
+   "descripcion": "Bolas de papa hervidas servidas con carne salada",
+   "tipo": "Principal",
+   "tiempoTexto": "1 h 30",
+   "tiempoMin": 90,
+   "dificultad": "Media",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": true,
+   "porciones": 4,
+   "ingredientes": [
+    {
+     "id": "i1",
+     "nombre": "Papas crudas",
+     "cantidad": 1,
+     "unidad": "kg",
+     "nota": "de pulpa firme"
+    },
+    {
+     "id": "i2",
+     "nombre": "Papa hervida, pisada",
+     "cantidad": 200,
+     "unidad": "g"
+    },
+    {
+     "id": "i3",
+     "nombre": "Harina",
+     "cantidad": 200,
+     "unidad": "g"
+    },
+    {
+     "id": "i4",
+     "nombre": "Sal",
+     "cantidad": 2,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i5",
+     "nombre": "Panceta ahumada, en cubos chicos",
+     "cantidad": 100,
+     "unidad": "g",
+     "nota": "para rellenar"
+    },
+    {
+     "id": "i6",
+     "nombre": "Agua",
+     "cantidad": 3,
+     "unidad": "l",
+     "nota": "para hervir las bolas"
+    },
+    {
+     "id": "i7",
+     "nombre": "Sal",
+     "cantidad": 1,
+     "unidad": "cda",
+     "nota": "para el agua"
+    },
+    {
+     "id": "i8",
+     "nombre": "Zanahorias",
+     "cantidad": 3,
+     "unidad": "u",
+     "plural": "zanahorias",
+     "nota": "para acompañar, hervidas"
+    },
+    {
+     "id": "i9",
+     "nombre": "Panceta ahumada, en tiras",
+     "cantidad": 200,
+     "unidad": "g",
+     "nota": "para servir"
+    },
+    {
+     "id": "i10",
+     "nombre": "Manteca",
+     "cantidad": 40,
+     "unidad": "g",
+     "nota": "derretida, para servir"
+    }
+   ],
+   "pasos": [
+    {
+     "titulo": "Rallar las papas",
+     "texto": "Pelá {i1} de papas crudas y rallalas fino. Ponelas en un colador o en un trapo limpio y exprimilas con fuerza para sacar todo el líquido. Descartá el líquido."
+    },
+    {
+     "titulo": "Armar la masa",
+     "texto": "Mezclá las papas exprimidas con {i2} de papa hervida pisada, {i3} de harina y {i4} de sal. La masa tiene que sostenerse al formar una bola con las manos mojadas. Si se desarma, agregá un poco más de harina de a cucharadas."
+    },
+    {
+     "titulo": "Formar las bolas",
+     "texto": "Con las manos mojadas, formá bolas grandes, del tamaño de una pelota de tenis. En el centro de cada una escondé unos cubitos de los {i5} de panceta, y cerrá bien."
+    },
+    {
+     "titulo": "Hervir",
+     "texto": "En una olla grande llevá a hervor {i6} de agua con {i7} de sal. Bajá el fuego para que quede un hervor muy suave y, con cuidado, sumergí las bolas con una cuchara. Si el agua hierve fuerte, se deshacen. Cocinalas sin tapar y dalas vuelta a la mitad del tiempo.",
+     "timerSeg": 2700
+    },
+    {
+     "titulo": "Sumar las zanahorias",
+     "texto": "Durante los últimos 20 minutos, pelá {i8} de zanahoria, cortalas en trozos y agregalas al agua junto con las bolas.",
+     "timerSeg": 1200
+    },
+    {
+     "titulo": "Freír la panceta",
+     "texto": "En una sartén, dorá {i9} de panceta en tiras, hasta que quede crocante.",
+     "timerSeg": 480
+    },
+    {
+     "titulo": "Servir",
+     "texto": "Sacá las bolas con espumadera, cortalas por la mitad y serví con las zanahorias y la panceta. Terminá con {i10} de manteca derretida por encima."
+    }
+   ],
+   "consejos": [
+    "Según la región se llaman raspeballer, komle o kumle. Son platos humildes de campo.",
+    "Si la primera bola se deshace en el agua, probá una de prueba: la masa necesita más harina.",
+    "Las bolas sobrantes se pueden cortar en rodajas y dorar en la sartén al día siguiente."
+   ],
+   "reemplazos": [
+    "Papa para rallar: sirve una papa blanca de pulpa firme. Las muy aguosas dan una masa blanda.",
+    "Panceta ahumada: se puede reemplazar por jamón cocido en cubos, o por salchicha ahumada."
+   ],
+   "notaPorciones": "Usá una olla bien grande: las bolas necesitan espacio. Los tiempos de cocción no cambian al modificar las porciones."
+  },
+  {
+   "id": "NO-07",
+   "pais": "NO",
+   "nombre": "Ovnsbakt laks",
+   "descripcion": "Salmón al horno con papas y crema agria",
+   "tipo": "Principal",
+   "tiempoTexto": "35 min",
+   "tiempoMin": 35,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": true,
+   "porciones": 4,
+   "ingredientes": [
+    {
+     "id": "i1",
+     "nombre": "Filetes de salmón (4 trozos de unos 150 g)",
+     "cantidad": 600,
+     "unidad": "g"
+    },
+    {
+     "id": "i2",
+     "nombre": "Aceite de oliva",
+     "cantidad": 1,
+     "unidad": "cda"
+    },
+    {
+     "id": "i3",
+     "nombre": "Sal",
+     "cantidad": 1,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i4",
+     "nombre": "Pimienta negra molida",
+     "cantidad": 0.25,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i5",
+     "nombre": "Limón",
+     "cantidad": 1,
+     "unidad": "u",
+     "plural": "limones"
+    },
+    {
+     "id": "i6",
+     "nombre": "Papas",
+     "cantidad": 600,
+     "unidad": "g"
+    },
+    {
+     "id": "i7",
+     "nombre": "Manteca",
+     "cantidad": 20,
+     "unidad": "g",
+     "nota": "para las papas"
+    },
+    {
+     "id": "i8",
+     "nombre": "Crema agria (o yogur natural firme)",
+     "cantidad": 200,
+     "unidad": "g"
+    },
+    {
+     "id": "i9",
+     "nombre": "Eneldo fresco picado",
+     "cantidad": null,
+     "unidad": "",
+     "nota": "a gusto, para la crema y para servir"
+    },
+    {
+     "id": "i10",
+     "nombre": "Pepino",
+     "cantidad": 1,
+     "unidad": "u",
+     "plural": "pepinos"
+    },
+    {
+     "id": "i11",
+     "nombre": "Vinagre blanco",
+     "cantidad": 3,
+     "unidad": "cda",
+     "nota": "para el pepino"
+    },
+    {
+     "id": "i12",
+     "nombre": "Azúcar",
+     "cantidad": 1,
+     "unidad": "cda",
+     "nota": "para el pepino"
+    },
+    {
+     "id": "i13",
+     "nombre": "Agua",
+     "cantidad": 3,
+     "unidad": "cda",
+     "nota": "para el pepino"
+    }
+   ],
+   "pasos": [
+    {
+     "titulo": "Precalentar y hervir las papas",
+     "texto": "Prendé el horno a 200 °C. Pelá {i6} de papas, cortalas en trozos parejos y hervilas con sal hasta que estén tiernas.",
+     "timerSeg": 1200
+    },
+    {
+     "titulo": "Ensalada de pepino",
+     "texto": "Cortá el pepino en rodajas bien finas. Mezclá {i11} de vinagre, {i12} de azúcar y {i13} de agua con una pizca de sal. Cubrí el pepino con ese líquido y dejalo marinar.",
+     "timerSeg": 900
+    },
+    {
+     "titulo": "Hornear el salmón",
+     "texto": "Secá {i1} de salmón con papel de cocina. Ponelo en una fuente, con el lado de la piel hacia abajo, y rociá con {i2} de aceite. Salpimentá con {i3} de sal y {i4} de pimienta y agregá unas gotas de jugo de limón. Hornealo hasta que se desmenuce fácil con el tenedor, pero siga rosado y jugoso en el centro.",
+     "timerSeg": 780
+    },
+    {
+     "titulo": "Salsa de crema agria",
+     "texto": "Mezclá {i8} de crema agria con eneldo, la ralladura y un poco de jugo del limón, y una pizca de sal."
+    },
+    {
+     "titulo": "Servir",
+     "texto": "Escurrí las papas y mezclalas con {i7} de manteca y eneldo. Serví el salmón con las papas, la crema agria y el pepino escurrido."
+    }
+   ],
+   "consejos": [
+    "El salmón tiene que quedar apenas rosado en el centro. Si lo pasás de cocción, se seca.",
+    "Los filetes con piel se cocinan más parejo. La piel se despega sola al servir.",
+    "El tiempo de horno depende del grosor del filete: 2,5 cm de alto lleva unos 13 minutos."
+   ],
+   "reemplazos": [
+    "Crema agria: sirve el yogur natural firme o la crema de leche con unas gotas de limón.",
+    "Eneldo: si no lo conseguís fresco, usá perejil, o eneldo seco en poca cantidad.",
+    "Salmón: sirve también la trucha."
+   ],
+   "notaPorciones": "Si cocinás más porciones, usá una fuente más grande para que los filetes no queden amontonados. Los tiempos no cambian al modificar las porciones."
+  },
+  {
+   "id": "NO-08",
+   "pais": "NO",
+   "nombre": "Fiskesuppe",
+   "descripcion": "Sopa cremosa de pescado y verduras",
+   "tipo": "Sopa",
+   "tiempoTexto": "40 min",
+   "tiempoMin": 40,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": true,
+   "porciones": 4,
+   "ingredientes": [
+    {
+     "id": "i1",
+     "nombre": "Manteca",
+     "cantidad": 30,
+     "unidad": "g"
+    },
+    {
+     "id": "i2",
+     "nombre": "Puerro (parte blanca), en rodajas",
+     "cantidad": 1,
+     "unidad": "u",
+     "plural": "puerros (parte blanca), en rodajas"
+    },
+    {
+     "id": "i3",
+     "nombre": "Zanahorias, en rodajas finas",
+     "cantidad": 200,
+     "unidad": "g"
+    },
+    {
+     "id": "i4",
+     "nombre": "Papas, en cubos chicos",
+     "cantidad": 300,
+     "unidad": "g"
+    },
+    {
+     "id": "i5",
+     "nombre": "Harina",
+     "cantidad": 2,
+     "unidad": "cda"
+    },
+    {
+     "id": "i6",
+     "nombre": "Caldo de pescado (o de verduras)",
+     "cantidad": 800,
+     "unidad": "ml"
+    },
+    {
+     "id": "i7",
+     "nombre": "Leche",
+     "cantidad": 300,
+     "unidad": "ml"
+    },
+    {
+     "id": "i8",
+     "nombre": "Merluza o pescado blanco, en cubos de 2 cm",
+     "cantidad": 300,
+     "unidad": "g"
+    },
+    {
+     "id": "i9",
+     "nombre": "Salmón, en cubos de 2 cm",
+     "cantidad": 200,
+     "unidad": "g"
+    },
+    {
+     "id": "i10",
+     "nombre": "Crema de leche",
+     "cantidad": 150,
+     "unidad": "ml"
+    },
+    {
+     "id": "i11",
+     "nombre": "Eneldo o perejil picado",
+     "cantidad": null,
+     "unidad": "",
+     "nota": "para servir"
+    },
+    {
+     "id": "i12",
+     "nombre": "Sal y pimienta",
+     "cantidad": null,
+     "unidad": "",
+     "nota": "para corregir al final"
+    },
+    {
+     "id": "i13",
+     "nombre": "Jugo de limón",
+     "cantidad": 1,
+     "unidad": "cdta"
+    }
+   ],
+   "pasos": [
+    {
+     "titulo": "Sofreír las verduras",
+     "texto": "En una olla derretí {i1} de manteca a fuego medio. Agregá el puerro y {i3} de zanahoria y cociná sin que se doren.",
+     "timerSeg": 300
+    },
+    {
+     "titulo": "Hacer la base",
+     "texto": "Espolvoreá {i5} de harina y cociná 1 minuto revolviendo. Agregá de a poco {i6} de caldo y {i7} de leche, batiendo para que no se hagan grumos."
+    },
+    {
+     "titulo": "Cocinar las papas",
+     "texto": "Sumá {i4} de papas. Cociná a fuego medio-bajo hasta que las papas y las zanahorias estén tiernas.",
+     "timerSeg": 900
+    },
+    {
+     "titulo": "Agregar el pescado",
+     "texto": "Agregá {i8} de merluza y {i9} de salmón. Cociná a fuego muy bajo, sin que hierva fuerte, hasta que el pescado esté opaco.",
+     "timerSeg": 300
+    },
+    {
+     "titulo": "Terminar",
+     "texto": "Agregá {i10} de crema y {i13} de jugo de limón. Calentá un minuto, sin hervir. Corregí con sal y pimienta."
+    },
+    {
+     "titulo": "Servir",
+     "texto": "Serví caliente, con eneldo o perejil por encima y pan al costado."
+    }
+   ],
+   "consejos": [
+    "El pescado se cocina en pocos minutos: agregalo al final y movelo con cuidado para que no se desarme.",
+    "Si la sopa te queda espesa, aflojala con un chorrito de leche o de caldo.",
+    "Es una sopa que se recalienta bien, pero a fuego bajo y sin hervir."
+   ],
+   "reemplazos": [
+    "Caldo de pescado: si no lo conseguís, sirve caldo de verduras con una pastilla de caldo de pescado.",
+    "Pescado: va bien con cualquier pescado blanco de carne firme, y se le pueden sumar camarones pelados."
+   ],
+   "notaPorciones": "Usá una olla más grande para más porciones. Los tiempos de cocción no cambian al modificar las porciones."
+  },
+  {
+   "id": "NO-09",
+   "pais": "NO",
+   "nombre": "Fiskekaker",
+   "descripcion": "Tortitas de pescado fritas con salsa",
+   "tipo": "Principal",
+   "tiempoTexto": "45 min",
+   "tiempoMin": 45,
+   "dificultad": "Media",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": true,
+   "porciones": 4,
+   "ingredientes": [
+    {
+     "id": "i1",
+     "nombre": "Merluza o pescado blanco, sin espinas",
+     "cantidad": 600,
+     "unidad": "g"
+    },
+    {
+     "id": "i2",
+     "nombre": "Cebolla pequeña, rallada",
+     "cantidad": 1,
+     "unidad": "u",
+     "plural": "cebollas pequeñas, ralladas"
+    },
+    {
+     "id": "i3",
+     "nombre": "Sal",
+     "cantidad": 1.5,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i4",
+     "nombre": "Almidón de maíz (o de papa)",
+     "cantidad": 2,
+     "unidad": "cda"
+    },
+    {
+     "id": "i5",
+     "nombre": "Crema de leche",
+     "cantidad": 150,
+     "unidad": "ml"
+    },
+    {
+     "id": "i6",
+     "nombre": "Pimienta blanca o negra molida",
+     "cantidad": 0.5,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i7",
+     "nombre": "Nuez moscada",
+     "cantidad": 1,
+     "unidad": "pizca"
+    },
+    {
+     "id": "i8",
+     "nombre": "Manteca",
+     "cantidad": 40,
+     "unidad": "g",
+     "nota": "para freír"
+    },
+    {
+     "id": "i9",
+     "nombre": "Papas",
+     "cantidad": 800,
+     "unidad": "g",
+     "nota": "para hervir"
+    },
+    {
+     "id": "i10",
+     "nombre": "Zanahorias",
+     "cantidad": 3,
+     "unidad": "u",
+     "plural": "zanahorias",
+     "nota": "para hervir"
+    },
+    {
+     "id": "i11",
+     "nombre": "Crema agria (o yogur natural firme)",
+     "cantidad": 150,
+     "unidad": "g",
+     "nota": "para acompañar"
+    },
+    {
+     "id": "i12",
+     "nombre": "Eneldo picado",
+     "cantidad": null,
+     "unidad": "",
+     "nota": "para la crema agria"
+    }
+   ],
+   "pasos": [
+    {
+     "titulo": "Procesar el pescado",
+     "texto": "Cortá {i1} de pescado en trozos y procesalo 1 minuto con {i3} de sal, hasta que quede una pasta. La sal es la que lo hace pegajoso y le da cohesión."
+    },
+    {
+     "titulo": "Armar la mezcla",
+     "texto": "Agregá la cebolla rallada, {i4} de almidón, {i6} de pimienta y {i7} de nuez moscada. Con la procesadora en marcha, sumá de a poco {i5} de crema, hasta que quede una mezcla cremosa pero firme."
+    },
+    {
+     "titulo": "Reposar",
+     "texto": "Pasá la mezcla a un bowl, tapá y llevala a la heladera. Frío se maneja mucho mejor.",
+     "timerSeg": 1200
+    },
+    {
+     "titulo": "Hervir papas y zanahorias",
+     "texto": "Mientras reposa la mezcla, pelá y cortá {i9} de papas y las zanahorias. Hervilas con sal hasta que estén tiernas.",
+     "timerSeg": 1500
+    },
+    {
+     "titulo": "Freír",
+     "texto": "Derretí {i8} de manteca en una sartén a fuego medio. Con una cuchara mojada, formá tortitas ovaladas y poné cada una en la sartén. Freí unos 4 minutos de cada lado, hasta que estén doradas y firmes.",
+     "timerSeg": 480
+    },
+    {
+     "titulo": "Servir",
+     "texto": "Mezclá {i11} de crema agria con eneldo. Serví los fiskekaker con las papas, las zanahorias y la crema agria."
+    }
+   ],
+   "consejos": [
+    "Hacé una tortita de prueba antes de formar todas. Si se deshace en la sartén, agregá una cucharada más de almidón.",
+    "Para que no se peguen, mojá la cuchara en agua fría cada vez que formes una tortita.",
+    "Sobran muy bien para el día siguiente: frías, en un sándwich."
+   ],
+   "reemplazos": [
+    "Pescado: sirve cualquier pescado blanco, como merluza, abadejo o pescadilla. Vale mezclar con algo de salmón.",
+    "Almidón de papa (potetmel): se reemplaza por almidón de maíz.",
+    "Crema agria: sirve el yogur natural firme."
+   ],
+   "notaPorciones": "Si hacés más porciones, freí en tandas. Los tiempos de cocción no cambian al modificar las porciones."
+  },
+  {
+   "id": "NO-10",
+   "pais": "NO",
+   "nombre": "Medisterkaker",
+   "descripcion": "Tortitas de cerdo especiadas con salsa marrón",
+   "tipo": "Principal",
+   "tiempoTexto": "55 min",
+   "tiempoMin": 55,
+   "dificultad": "Media",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": true,
+   "porciones": 4,
+   "ingredientes": [
+    {
+     "id": "i1",
+     "nombre": "Carne picada de cerdo, con algo de grasa",
+     "cantidad": 500,
+     "unidad": "g"
+    },
+    {
+     "id": "i2",
+     "nombre": "Cebolla pequeña, rallada",
+     "cantidad": 1,
+     "unidad": "u",
+     "plural": "cebollas pequeñas, ralladas"
+    },
+    {
+     "id": "i3",
+     "nombre": "Sal",
+     "cantidad": 1.5,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i4",
+     "nombre": "Pimienta negra molida",
+     "cantidad": 0.5,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i5",
+     "nombre": "Jengibre molido",
+     "cantidad": 0.5,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i6",
+     "nombre": "Nuez moscada",
+     "cantidad": 0.25,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i7",
+     "nombre": "Almidón de maíz (o harina)",
+     "cantidad": 2,
+     "unidad": "cda"
+    },
+    {
+     "id": "i8",
+     "nombre": "Leche",
+     "cantidad": 150,
+     "unidad": "ml"
+    },
+    {
+     "id": "i9",
+     "nombre": "Manteca",
+     "cantidad": 30,
+     "unidad": "g",
+     "nota": "para dorar"
+    },
+    {
+     "id": "i10",
+     "nombre": "Manteca",
+     "cantidad": 20,
+     "unidad": "g",
+     "nota": "para la salsa"
+    },
+    {
+     "id": "i11",
+     "nombre": "Harina",
+     "cantidad": 2,
+     "unidad": "cda",
+     "nota": "para la salsa"
+    },
+    {
+     "id": "i12",
+     "nombre": "Caldo de carne caliente",
+     "cantidad": 400,
+     "unidad": "ml"
+    },
+    {
+     "id": "i13",
+     "nombre": "Salsa de soja",
+     "cantidad": 1,
+     "unidad": "cdta",
+     "nota": "para dar color"
+    },
+    {
+     "id": "i14",
+     "nombre": "Papas",
+     "cantidad": 800,
+     "unidad": "g",
+     "nota": "para hervir"
+    },
+    {
+     "id": "i15",
+     "nombre": "Zanahorias",
+     "cantidad": 3,
+     "unidad": "u",
+     "plural": "zanahorias",
+     "nota": "para hervir"
+    }
+   ],
+   "pasos": [
+    {
+     "titulo": "Amasar la carne",
+     "texto": "Poné {i1} de carne de cerdo en un bowl con {i3} de sal. Amasá con las manos 3 minutos, hasta que la carne se ponga pegajosa."
+    },
+    {
+     "titulo": "Agregar los condimentos",
+     "texto": "Sumá la cebolla rallada, {i4} de pimienta, {i5} de jengibre, {i6} de nuez moscada y {i7} de almidón. Incorporá {i8} de leche de a poco, sin dejar de amasar."
+    },
+    {
+     "titulo": "Reposar",
+     "texto": "Tapá y llevá la mezcla a la heladera. Con el frío se afirma y es más fácil de formar.",
+     "timerSeg": 900
+    },
+    {
+     "titulo": "Hervir papas y zanahorias",
+     "texto": "Mientras reposa, pelá y cortá {i14} de papas y las zanahorias. Hervilas con sal hasta que estén tiernas.",
+     "timerSeg": 1500
+    },
+    {
+     "titulo": "Formar y dorar",
+     "texto": "Con las manos mojadas, formá tortitas ovaladas y chatas, de 2 cm de alto. Derretí {i9} de manteca en una sartén a fuego medio y dorá las tortitas unos 4 minutos de cada lado. Pasalas a un plato.",
+     "timerSeg": 480
+    },
+    {
+     "titulo": "Hacer la salsa",
+     "texto": "En la misma sartén derretí {i10} de manteca, agregá {i11} de harina y cociná 1 minuto revolviendo. Sumá de a poco {i12} de caldo, batiendo. Agregá {i13} de salsa de soja y dejá hervir hasta que espese.",
+     "timerSeg": 300
+    },
+    {
+     "titulo": "Terminar la cocción",
+     "texto": "Devolvé las tortitas a la sartén con la salsa, tapá y cociná a fuego bajo hasta que estén cocidas por dentro.",
+     "timerSeg": 300
+    },
+    {
+     "titulo": "Servir",
+     "texto": "Serví las tortitas con la salsa, las papas y las zanahorias."
+    }
+   ],
+   "consejos": [
+    "Hacé una tortita de prueba y probala antes de formar el resto, para corregir la sal y las especias.",
+    "Si no tenés carne picada con grasa, pedile al carnicero que le agregue grasa de cerdo: queda mucho más jugosa.",
+    "La salsa tiene que quedar fluida. Si se espesa mucho, aflojala con caldo."
+   ],
+   "reemplazos": [
+    "Nuez moscada, jengibre y pimienta son las especias clásicas del medister. Podés sumar una pizca de pimienta de Jamaica.",
+    "Almidón de maíz: sirve también la harina común."
+   ],
+   "notaPorciones": "Si hacés más porciones, doralo en tandas. Los tiempos de cocción no cambian al modificar las porciones."
+  },
+  {
+   "id": "JP-01",
+   "pais": "JP",
+   "nombre": "Oyakodon",
+   "descripcion": "Pollo y huevo en salsa dulce de soja sobre arroz",
+   "tipo": "Principal",
+   "tiempoTexto": "25 min",
+   "tiempoMin": 25,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": true,
+   "porciones": 2,
+   "notaPorciones": "Los tiempos no cambian al modificar las porciones. Para más de 4 porciones, cociná en dos tandas o en una sartén más grande.",
+   "ingredientes": [
+    {
+     "id": "i1",
+     "nombre": "Arroz de grano corto (crudo)",
+     "cantidad": 1,
+     "unidad": "taza"
+    },
+    {
+     "id": "i2",
+     "nombre": "Muslos de pollo sin hueso, en trozos chicos",
+     "cantidad": 300,
+     "unidad": "g"
+    },
+    {
+     "id": "i3",
+     "nombre": "Cebolla mediana, en medias lunas finas",
+     "cantidad": 1,
+     "unidad": "u",
+     "plural": "cebollas medianas, en medias lunas finas"
+    },
+    {
+     "id": "i4",
+     "nombre": "Huevo",
+     "cantidad": 4,
+     "unidad": "u",
+     "plural": "huevos"
+    },
+    {
+     "id": "i5",
+     "nombre": "Caldo de pollo (o dashi)",
+     "cantidad": 200,
+     "unidad": "ml"
+    },
+    {
+     "id": "i6",
+     "nombre": "Salsa de soja",
+     "cantidad": 3,
+     "unidad": "cda"
+    },
+    {
+     "id": "i7",
+     "nombre": "Azúcar",
+     "cantidad": 1,
+     "unidad": "cda"
+    },
+    {
+     "id": "i8",
+     "nombre": "Cebolla de verdeo picada",
+     "cantidad": null,
+     "unidad": "",
+     "nota": "para servir"
+    }
+   ],
+   "pasos": [
+    {
+     "titulo": "Cocinar el arroz",
+     "texto": "Lavá el arroz hasta que el agua salga casi clara y cocinalo como siempre. Dejalo tapado mientras preparás el resto.",
+     "timerSeg": 1200
+    },
+    {
+     "titulo": "Preparar la salsa",
+     "texto": "En una sartén mediana mezclá {i5} de caldo, {i6} de salsa de soja y {i7} de azúcar. Llevá a hervor suave."
+    },
+    {
+     "titulo": "Cocinar la cebolla",
+     "texto": "Agregá la cebolla a la salsa y cocinala a fuego medio hasta que se ablande.",
+     "timerSeg": 180
+    },
+    {
+     "titulo": "Agregar el pollo",
+     "texto": "Sumá {i2} de pollo, tapá y cociná hasta que no quede rosado por dentro.",
+     "timerSeg": 360
+    },
+    {
+     "titulo": "Primera mitad del huevo",
+     "texto": "Batí ligeramente {i4}, sin mezclar demasiado: tienen que quedar hebras de clara. Volcá la mitad sobre el pollo y tapá a fuego bajo.",
+     "timerSeg": 60
+    },
+    {
+     "titulo": "Segunda mitad y apagar",
+     "texto": "Volcá el huevo restante, tapá y apagá el fuego. El calor lo termina de cocinar: tiene que quedar cremoso, no seco.",
+     "timerSeg": 30
+    },
+    {
+     "titulo": "Servir",
+     "texto": "Poné el arroz en los bowls y deslizá encima el pollo con huevo y un poco de la salsa de la sartén. Terminá con cebolla de verdeo si tenés."
+    }
+   ],
+   "consejos": [
+    "Cuanto más fresco el huevo, más cremoso el resultado.",
+    "Si querés más sabor, agregá 1 cucharada de mirin a la salsa."
+   ],
+   "reemplazos": [
+    "Dashi: usá caldo de pollo y una pizca extra de azúcar.",
+    "Mirin: un chorrito de vino blanco con una pizca más de azúcar.",
+    "Arroz de grano corto: sirve el arroz de sushi. Si no, cualquier arroz común, pero queda menos pegajoso."
+   ]
+  },
+  {
+   "id": "JP-02",
+   "pais": "JP",
+   "nombre": "Gyudon",
+   "descripcion": "Res y cebolla en salsa dulce sobre arroz",
+   "tipo": "Principal",
+   "tiempoTexto": "25 min",
+   "tiempoMin": 25,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": true,
+   "porciones": 2,
+   "ingredientes": [
+    {
+     "id": "i1",
+     "nombre": "Arroz de grano corto (crudo)",
+     "cantidad": 1,
+     "unidad": "taza"
+    },
+    {
+     "id": "i2",
+     "nombre": "Carne de res en láminas finas (bife ancho, vacío o lomo)",
+     "cantidad": 250,
+     "unidad": "g",
+     "nota": "pedile al carnicero que la corte bien fina"
+    },
+    {
+     "id": "i3",
+     "nombre": "Cebolla grande, en medias lunas",
+     "cantidad": 1,
+     "unidad": "u",
+     "plural": "cebollas grandes, en medias lunas"
+    },
+    {
+     "id": "i4",
+     "nombre": "Caldo de carne (o agua)",
+     "cantidad": 150,
+     "unidad": "ml"
+    },
+    {
+     "id": "i5",
+     "nombre": "Salsa de soja",
+     "cantidad": 3,
+     "unidad": "cda"
+    },
+    {
+     "id": "i6",
+     "nombre": "Azúcar",
+     "cantidad": 1.5,
+     "unidad": "cda"
+    },
+    {
+     "id": "i7",
+     "nombre": "Vino blanco seco",
+     "cantidad": 2,
+     "unidad": "cda",
+     "nota": "reemplaza al sake"
+    },
+    {
+     "id": "i8",
+     "nombre": "Jengibre fresco rallado",
+     "cantidad": 1,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i9",
+     "nombre": "Cebolla de verdeo picada",
+     "cantidad": null,
+     "unidad": "",
+     "nota": "para servir"
+    },
+    {
+     "id": "i10",
+     "nombre": "Jengibre encurtido rojo (benishoga)",
+     "cantidad": null,
+     "unidad": "",
+     "nota": "opcional, para servir"
+    }
+   ],
+   "pasos": [
+    {
+     "titulo": "Cocinar el arroz",
+     "texto": "Lavá el arroz hasta que el agua salga casi clara y cocinalo como siempre. Dejalo tapado mientras preparás el resto.",
+     "timerSeg": 1200
+    },
+    {
+     "titulo": "Preparar la salsa",
+     "texto": "En una sartén mezclá {i4} de caldo, {i5} de salsa de soja, {i6} de azúcar, {i7} de vino blanco y {i8} de jengibre rallado. Llevá a hervor suave."
+    },
+    {
+     "titulo": "Cocinar la cebolla",
+     "texto": "Agregá la cebolla a la salsa y cocinala a fuego medio hasta que quede transparente y blanda.",
+     "timerSeg": 300
+    },
+    {
+     "titulo": "Agregar la carne",
+     "texto": "Sumá {i2} de carne separando las láminas con un tenedor, para que no se peguen. Cociná hasta que pierda el color rosado. Retirá con una cuchara la espuma gris que sube a la superficie.",
+     "timerSeg": 180
+    },
+    {
+     "titulo": "Servir",
+     "texto": "Poné el arroz en los bowls, cubrilo con la carne, la cebolla y bastante salsa. Terminá con cebolla de verdeo y, si querés, jengibre encurtido."
+    }
+   ],
+   "consejos": [
+    "El gyudon («bowl de res») es una comida rápida muy popular en Japón.",
+    "Si congelás la carne 30 minutos antes de cortarla, es más fácil hacer láminas finas.",
+    "Una carne con algo de grasa da más sabor a la salsa."
+   ],
+   "reemplazos": [
+    "Caldo: tradicionalmente es dashi. Con caldo de carne o incluso con agua queda bien.",
+    "Sake y mirin: se reemplazan por vino blanco seco y un poco más de azúcar.",
+    "Jengibre encurtido: es opcional, se consigue en tiendas de productos asiáticos."
+   ],
+   "notaPorciones": "Si cocinás más porciones, usá una sartén más grande para que la carne no se amontone. Los tiempos de cocción no cambian al modificar las porciones."
+  },
+  {
+   "id": "JP-03",
+   "pais": "JP",
+   "nombre": "Katsudon",
+   "descripcion": "Milanesa de cerdo con huevo sobre arroz",
+   "tipo": "Principal",
+   "tiempoTexto": "40 min",
+   "tiempoMin": 40,
+   "dificultad": "Media",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": true,
+   "porciones": 2,
+   "ingredientes": [
+    {
+     "id": "i1",
+     "nombre": "Arroz de grano corto (crudo)",
+     "cantidad": 1,
+     "unidad": "taza"
+    },
+    {
+     "id": "i2",
+     "nombre": "Bifes de cerdo (lomo o peceto), de 1,5 cm de alto",
+     "cantidad": 300,
+     "unidad": "g",
+     "nota": "2 bifes"
+    },
+    {
+     "id": "i3",
+     "nombre": "Sal",
+     "cantidad": 0.5,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i4",
+     "nombre": "Pimienta negra molida",
+     "cantidad": 0.25,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i5",
+     "nombre": "Harina",
+     "cantidad": 3,
+     "unidad": "cda",
+     "nota": "para empanar"
+    },
+    {
+     "id": "i6",
+     "nombre": "Huevo",
+     "cantidad": 1,
+     "unidad": "u",
+     "plural": "huevos",
+     "nota": "para empanar"
+    },
+    {
+     "id": "i7",
+     "nombre": "Panko (o pan rallado fino)",
+     "cantidad": 60,
+     "unidad": "g"
+    },
+    {
+     "id": "i8",
+     "nombre": "Aceite",
+     "cantidad": 250,
+     "unidad": "ml",
+     "nota": "para freír"
+    },
+    {
+     "id": "i9",
+     "nombre": "Cebolla, en medias lunas finas",
+     "cantidad": 1,
+     "unidad": "u",
+     "plural": "cebollas, en medias lunas finas"
+    },
+    {
+     "id": "i10",
+     "nombre": "Caldo de pollo (o dashi)",
+     "cantidad": 150,
+     "unidad": "ml"
+    },
+    {
+     "id": "i11",
+     "nombre": "Salsa de soja",
+     "cantidad": 2,
+     "unidad": "cda"
+    },
+    {
+     "id": "i12",
+     "nombre": "Azúcar",
+     "cantidad": 1,
+     "unidad": "cda"
+    },
+    {
+     "id": "i13",
+     "nombre": "Huevo",
+     "cantidad": 3,
+     "unidad": "u",
+     "plural": "huevos",
+     "nota": "para cubrir el bowl"
+    },
+    {
+     "id": "i14",
+     "nombre": "Cebolla de verdeo picada",
+     "cantidad": null,
+     "unidad": "",
+     "nota": "para servir"
+    }
+   ],
+   "pasos": [
+    {
+     "titulo": "Cocinar el arroz",
+     "texto": "Lavá el arroz hasta que el agua salga casi clara y cocinalo como siempre. Dejalo tapado.",
+     "timerSeg": 1200
+    },
+    {
+     "titulo": "Preparar el cerdo",
+     "texto": "Hacé pequeños cortes en la tira de grasa de los bifes ({i2} en total), para que no se encojan al freírlos. Golpealos apenas con el palo de amasar. Salpimentá con {i3} de sal y {i4} de pimienta."
+    },
+    {
+     "titulo": "Empanar",
+     "texto": "Pasá cada bife por {i5} de harina, después por el huevo batido y por último por {i7} de panko, presionando para que se pegue bien."
+    },
+    {
+     "titulo": "Freír",
+     "texto": "En una sartén calentá {i8} de aceite a fuego medio-alto. Freí los bifes hasta que estén bien dorados de los dos lados. Escurrilos sobre papel de cocina y cortalos en tiras de 2 cm.",
+     "timerSeg": 420
+    },
+    {
+     "titulo": "Hacer la salsa",
+     "texto": "En una sartén chica poné {i10} de caldo, {i11} de salsa de soja, {i12} de azúcar y la cebolla. Cociná hasta que la cebolla se ablande.",
+     "timerSeg": 240
+    },
+    {
+     "titulo": "Agregar el huevo",
+     "texto": "Batí ligeramente {i13}. Volcá la mitad sobre la cebolla, acomodá encima el cerdo frito y volcá el resto del huevo. Tapá y cociná a fuego bajo. El huevo tiene que quedar cremoso, no seco.",
+     "timerSeg": 90
+    },
+    {
+     "titulo": "Servir",
+     "texto": "Deslizá todo sobre el arroz en los bowls y terminá con cebolla de verdeo."
+    }
+   ],
+   "consejos": [
+    "El nombre viene de «katsu» (cutlet) y «don» (bowl). En Japón también se come antes de los exámenes, porque «katsu» suena parecido a «ganar».",
+    "Que el huevo quede apenas cuajado es lo que le da su textura característica.",
+    "Cuidado con el aceite caliente: no te alejes de la sartén y no mojes los bifes antes de freír."
+   ],
+   "reemplazos": [
+    "Panko: es un pan rallado japonés más grueso y crocante. Con pan rallado común queda bien, pero menos crujiente.",
+    "Dashi: sirve caldo de pollo o de verduras."
+   ],
+   "notaPorciones": "Si cocinás más porciones, freí en tandas. Los tiempos de cocción no cambian al modificar las porciones."
+  },
+  {
+   "id": "JP-04",
+   "pais": "JP",
+   "nombre": "Tonkatsu",
+   "descripcion": "Milanesa de cerdo con panko y salsa espesa",
+   "tipo": "Principal",
+   "tiempoTexto": "40 min",
+   "tiempoMin": 40,
+   "dificultad": "Media",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": true,
+   "porciones": 4,
+   "ingredientes": [
+    {
+     "id": "i1",
+     "nombre": "Bifes de cerdo (lomo o bondiola), de 1,5 a 2 cm de alto",
+     "cantidad": 600,
+     "unidad": "g",
+     "nota": "4 bifes"
+    },
+    {
+     "id": "i2",
+     "nombre": "Sal",
+     "cantidad": 1,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i3",
+     "nombre": "Pimienta negra molida",
+     "cantidad": 0.5,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i4",
+     "nombre": "Harina",
+     "cantidad": 60,
+     "unidad": "g"
+    },
+    {
+     "id": "i5",
+     "nombre": "Huevo",
+     "cantidad": 2,
+     "unidad": "u",
+     "plural": "huevos"
+    },
+    {
+     "id": "i6",
+     "nombre": "Panko (o pan rallado fino)",
+     "cantidad": 120,
+     "unidad": "g"
+    },
+    {
+     "id": "i7",
+     "nombre": "Aceite",
+     "cantidad": 500,
+     "unidad": "ml",
+     "nota": "para freír"
+    },
+    {
+     "id": "i8",
+     "nombre": "Repollo",
+     "cantidad": 300,
+     "unidad": "g",
+     "nota": "cortado en tiras muy finas"
+    },
+    {
+     "id": "i9",
+     "nombre": "Ketchup",
+     "cantidad": 3,
+     "unidad": "cda",
+     "nota": "para la salsa"
+    },
+    {
+     "id": "i10",
+     "nombre": "Salsa inglesa",
+     "cantidad": 2,
+     "unidad": "cda",
+     "nota": "para la salsa"
+    },
+    {
+     "id": "i11",
+     "nombre": "Salsa de soja",
+     "cantidad": 1,
+     "unidad": "cda",
+     "nota": "para la salsa"
+    },
+    {
+     "id": "i12",
+     "nombre": "Azúcar",
+     "cantidad": 1,
+     "unidad": "cdta",
+     "nota": "para la salsa"
+    },
+    {
+     "id": "i13",
+     "nombre": "Limón",
+     "cantidad": 1,
+     "unidad": "u",
+     "plural": "limones",
+     "nota": "para servir"
+    }
+   ],
+   "pasos": [
+    {
+     "titulo": "Preparar el repollo",
+     "texto": "Cortá {i8} de repollo en tiras lo más finas posible. Ponelas en agua fría para que queden crocantes, y escurrilas bien antes de servir.",
+     "timerSeg": 300
+    },
+    {
+     "titulo": "Hacer la salsa",
+     "texto": "Mezclá {i9} de ketchup, {i10} de salsa inglesa, {i11} de salsa de soja y {i12} de azúcar. Esa es la salsa tonkatsu casera."
+    },
+    {
+     "titulo": "Preparar el cerdo",
+     "texto": "Sacá el exceso de nervios de los bifes ({i1} en total) y hacé pequeños cortes en la tira de grasa, para que no se encojan al freír. Salpimentá con {i2} de sal y {i3} de pimienta."
+    },
+    {
+     "titulo": "Empanar",
+     "texto": "Pasá cada bife por {i4} de harina, después por los huevos batidos y por último por {i6} de panko, presionando bien."
+    },
+    {
+     "titulo": "Freír",
+     "texto": "Calentá {i7} de aceite en una olla o sartén honda a unos 170 °C. Para probar, tirá una miga de panko: tiene que subir enseguida chisporroteando. Freí los bifes hasta que estén dorados por los dos lados. Escurrilos parados sobre una rejilla.",
+     "timerSeg": 420
+    },
+    {
+     "titulo": "Reposar y cortar",
+     "texto": "Dejá reposar los bifes antes de cortarlos en tiras de 2 cm, para que no se escape el jugo.",
+     "timerSeg": 180
+    },
+    {
+     "titulo": "Servir",
+     "texto": "Serví el tonkatsu con el repollo, la salsa y {i13}. Va muy bien con arroz."
+    }
+   ],
+   "consejos": [
+    "El secreto de la corteza crocante es el aceite bien caliente y escurrir los bifes parados, no apoyados sobre papel.",
+    "No amontones los bifes en el aceite: baja la temperatura y la corteza queda aceitosa.",
+    "Cuidado con el aceite caliente. No dejes la sartén sola y mantené el agua lejos."
+   ],
+   "reemplazos": [
+    "Panko: es un pan rallado japonés, más grueso y crocante. Podés usar pan rallado fino sin condimentar.",
+    "Salsa tonkatsu: si la conseguís hecha, va igual. La casera se hace con ketchup y salsa inglesa."
+   ],
+   "notaPorciones": "Si cocinás más porciones, freí en tandas. Los tiempos de cocción no cambian al modificar las porciones."
+  },
+  {
+   "id": "JP-05",
+   "pais": "JP",
+   "nombre": "Yakisoba",
+   "descripcion": "Fideos salteados con verduras y cerdo",
+   "tipo": "Principal",
+   "tiempoTexto": "30 min",
+   "tiempoMin": 30,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": true,
+   "porciones": 4,
+   "ingredientes": [
+    {
+     "id": "i1",
+     "nombre": "Fideos (tipo chinos, o tallarines al huevo)",
+     "cantidad": 400,
+     "unidad": "g"
+    },
+    {
+     "id": "i2",
+     "nombre": "Aceite",
+     "cantidad": 2,
+     "unidad": "cda"
+    },
+    {
+     "id": "i3",
+     "nombre": "Cerdo en tiras finas (bondiola o panceta)",
+     "cantidad": 200,
+     "unidad": "g"
+    },
+    {
+     "id": "i4",
+     "nombre": "Repollo, en tiras",
+     "cantidad": 250,
+     "unidad": "g"
+    },
+    {
+     "id": "i5",
+     "nombre": "Zanahoria, en tiras finas",
+     "cantidad": 1,
+     "unidad": "u",
+     "plural": "zanahorias, en tiras finas"
+    },
+    {
+     "id": "i6",
+     "nombre": "Cebolla, en medias lunas",
+     "cantidad": 1,
+     "unidad": "u",
+     "plural": "cebollas, en medias lunas"
+    },
+    {
+     "id": "i7",
+     "nombre": "Salsa inglesa",
+     "cantidad": 3,
+     "unidad": "cda",
+     "nota": "para la salsa"
+    },
+    {
+     "id": "i8",
+     "nombre": "Ketchup",
+     "cantidad": 2,
+     "unidad": "cda",
+     "nota": "para la salsa"
+    },
+    {
+     "id": "i9",
+     "nombre": "Salsa de soja",
+     "cantidad": 1,
+     "unidad": "cda",
+     "nota": "para la salsa"
+    },
+    {
+     "id": "i10",
+     "nombre": "Azúcar",
+     "cantidad": 1,
+     "unidad": "cdta",
+     "nota": "para la salsa"
+    },
+    {
+     "id": "i11",
+     "nombre": "Jengibre encurtido o cebolla de verdeo",
+     "cantidad": null,
+     "unidad": "",
+     "nota": "para servir"
+    }
+   ],
+   "pasos": [
+    {
+     "titulo": "Cocinar los fideos",
+     "texto": "Hervilos como indica el paquete, pero 1 minuto menos. Escurrilos, enjuagalos con agua fría y mezclalos con una cucharadita de aceite para que no se peguen. Necesitás {i1} de fideos."
+    },
+    {
+     "titulo": "Preparar la salsa",
+     "texto": "Mezclá {i7} de salsa inglesa, {i8} de ketchup, {i9} de salsa de soja y {i10} de azúcar."
+    },
+    {
+     "titulo": "Saltear el cerdo",
+     "texto": "En una sartén grande o wok, calentá {i2} de aceite a fuego fuerte. Salteá {i3} de cerdo hasta que se dore.",
+     "timerSeg": 180
+    },
+    {
+     "titulo": "Saltear las verduras",
+     "texto": "Agregá el repollo, la zanahoria y la cebolla. Salteá a fuego fuerte, revolviendo siempre, hasta que estén tiernas pero todavía crocantes.",
+     "timerSeg": 240
+    },
+    {
+     "titulo": "Mezclar con los fideos",
+     "texto": "Sumá los fideos y la salsa. Mezclá a fuego fuerte, separando los fideos con dos tenedores, hasta que estén bien cubiertos y calientes.",
+     "timerSeg": 180
+    },
+    {
+     "titulo": "Servir",
+     "texto": "Serví caliente, con jengibre encurtido o cebolla de verdeo por encima."
+    }
+   ],
+   "consejos": [
+    "Cociná a fuego fuerte y no amontones los ingredientes: así se saltean en vez de cocinarse al vapor.",
+    "Tené todo cortado y la salsa lista antes de empezar: el salteado es muy rápido.",
+    "Se puede reemplazar el cerdo por pollo o por camarones."
+   ],
+   "reemplazos": [
+    "Fideos: el yakisoba original usa fideos chinos precocidos. Los tallarines al huevo o hasta los spaghetti funcionan bien.",
+    "Salsa yakisoba: se reemplaza por esta mezcla de salsa inglesa, ketchup y soja.",
+    "Jengibre encurtido: es opcional y se consigue en tiendas de productos asiáticos."
+   ],
+   "notaPorciones": "Si cocinás más porciones, salteá en dos tandas o usá un wok grande. Los tiempos de cocción no cambian al modificar las porciones."
+  },
+  {
+   "id": "JP-06",
+   "pais": "JP",
+   "nombre": "Curry japonés (karē raisu)",
+   "descripcion": "Curry suave de papa, zanahoria y carne con arroz",
+   "tipo": "Guiso",
+   "tiempoTexto": "1 h",
+   "tiempoMin": 60,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": true,
+   "porciones": 4,
+   "ingredientes": [
+    {
+     "id": "i1",
+     "nombre": "Arroz de grano corto (crudo)",
+     "cantidad": 2,
+     "unidad": "taza"
+    },
+    {
+     "id": "i2",
+     "nombre": "Aceite",
+     "cantidad": 2,
+     "unidad": "cda"
+    },
+    {
+     "id": "i3",
+     "nombre": "Cebolla grande, en medias lunas",
+     "cantidad": 2,
+     "unidad": "u",
+     "plural": "cebollas grandes, en medias lunas"
+    },
+    {
+     "id": "i4",
+     "nombre": "Ajo, picado",
+     "cantidad": 2,
+     "unidad": "diente"
+    },
+    {
+     "id": "i5",
+     "nombre": "Jengibre fresco rallado",
+     "cantidad": 1,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i6",
+     "nombre": "Muslos de pollo sin piel ni hueso, en trozos",
+     "cantidad": 500,
+     "unidad": "g"
+    },
+    {
+     "id": "i7",
+     "nombre": "Zanahorias, en rodajas gruesas",
+     "cantidad": 250,
+     "unidad": "g"
+    },
+    {
+     "id": "i8",
+     "nombre": "Papas, en cubos de 3 cm",
+     "cantidad": 400,
+     "unidad": "g"
+    },
+    {
+     "id": "i9",
+     "nombre": "Agua",
+     "cantidad": 700,
+     "unidad": "ml"
+    },
+    {
+     "id": "i10",
+     "nombre": "Manteca",
+     "cantidad": 40,
+     "unidad": "g",
+     "nota": "para el roux"
+    },
+    {
+     "id": "i11",
+     "nombre": "Harina",
+     "cantidad": 3,
+     "unidad": "cda",
+     "nota": "para el roux"
+    },
+    {
+     "id": "i12",
+     "nombre": "Curry en polvo",
+     "cantidad": 2,
+     "unidad": "cda",
+     "nota": "para el roux"
+    },
+    {
+     "id": "i13",
+     "nombre": "Ketchup",
+     "cantidad": 1,
+     "unidad": "cda"
+    },
+    {
+     "id": "i14",
+     "nombre": "Salsa de soja",
+     "cantidad": 1,
+     "unidad": "cda"
+    },
+    {
+     "id": "i15",
+     "nombre": "Azúcar",
+     "cantidad": 1,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i16",
+     "nombre": "Manzana pequeña, rallada",
+     "cantidad": 1,
+     "unidad": "u",
+     "plural": "manzanas pequeñas, ralladas"
+    },
+    {
+     "id": "i17",
+     "nombre": "Sal",
+     "cantidad": 1,
+     "unidad": "cdta",
+     "nota": "probá y ajustá al final"
+    }
+   ],
+   "pasos": [
+    {
+     "titulo": "Cocinar el arroz",
+     "texto": "Lavá {i1} de arroz hasta que el agua salga casi clara y cocinalo como siempre. Dejalo tapado.",
+     "timerSeg": 1200
+    },
+    {
+     "titulo": "Dorar la cebolla",
+     "texto": "En una olla grande calentá {i2} de aceite a fuego medio. Agregá la cebolla y cociná, revolviendo de a ratos, hasta que esté bien dorada. Esa cebolla caramelizada es la base del sabor.",
+     "timerSeg": 600
+    },
+    {
+     "titulo": "Agregar el pollo",
+     "texto": "Sumá {i4} de ajo, {i5} de jengibre y {i6} de pollo. Cociná hasta que el pollo cambie de color por fuera.",
+     "timerSeg": 300
+    },
+    {
+     "titulo": "Cocinar las verduras",
+     "texto": "Agregá {i7} de zanahoria, {i8} de papas y {i9} de agua. Llevá a hervor, retirá la espuma que se forma, tapá y cociná a fuego bajo hasta que las verduras estén tiernas.",
+     "timerSeg": 1200
+    },
+    {
+     "titulo": "Hacer el roux",
+     "texto": "Mientras tanto, en una sartén chica derretí {i10} de manteca. Agregá {i11} de harina y {i12} de curry en polvo. Tostá revolviendo hasta que huela intenso, sin que se queme.",
+     "timerSeg": 180
+    },
+    {
+     "titulo": "Unir y espesar",
+     "texto": "Disolvé el roux con un cucharón de caldo caliente de la olla y volcalo adentro. Agregá {i13} de ketchup, {i14} de salsa de soja, {i15} de azúcar, la manzana rallada y {i17} de sal. Cociná revolviendo hasta que espese.",
+     "timerSeg": 600
+    },
+    {
+     "titulo": "Servir",
+     "texto": "Serví el curry sobre el arroz."
+    }
+   ],
+   "consejos": [
+    "El curry japonés es más dulce y espeso que el indio. Llegó a Japón a través de Gran Bretaña.",
+    "Al día siguiente el curry está todavía más sabroso. Se guarda 2 o 3 días en la heladera.",
+    "La manzana rallada y el ketchup le dan el toque dulce típico."
+   ],
+   "reemplazos": [
+    "Roux comercial: en Japón se vende en tabletas. Esta versión casera con curry en polvo da un resultado parecido.",
+    "Pollo: se puede reemplazar por carne de res para guiso, que necesita más tiempo de cocción."
+   ],
+   "notaPorciones": "Usá una olla grande para más porciones. Los tiempos de cocción no cambian al modificar las porciones."
+  },
+  {
+   "id": "JP-07",
+   "pais": "JP",
+   "nombre": "Nikujaga",
+   "descripcion": "Guiso de papa y carne en salsa de soja dulce",
+   "tipo": "Guiso",
+   "tiempoTexto": "45 min",
+   "tiempoMin": 45,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": true,
+   "porciones": 4,
+   "ingredientes": [
+    {
+     "id": "i1",
+     "nombre": "Aceite",
+     "cantidad": 1,
+     "unidad": "cda"
+    },
+    {
+     "id": "i2",
+     "nombre": "Carne de res en láminas finas (bife ancho o vacío)",
+     "cantidad": 250,
+     "unidad": "g"
+    },
+    {
+     "id": "i3",
+     "nombre": "Cebolla grande, en cuñas",
+     "cantidad": 2,
+     "unidad": "u",
+     "plural": "cebollas grandes, en cuñas"
+    },
+    {
+     "id": "i4",
+     "nombre": "Zanahoria, en trozos",
+     "cantidad": 150,
+     "unidad": "g"
+    },
+    {
+     "id": "i5",
+     "nombre": "Papas, en trozos grandes de 4 cm",
+     "cantidad": 600,
+     "unidad": "g"
+    },
+    {
+     "id": "i6",
+     "nombre": "Caldo de verduras (o dashi)",
+     "cantidad": 400,
+     "unidad": "ml"
+    },
+    {
+     "id": "i7",
+     "nombre": "Azúcar",
+     "cantidad": 2,
+     "unidad": "cda"
+    },
+    {
+     "id": "i8",
+     "nombre": "Vino blanco seco",
+     "cantidad": 2,
+     "unidad": "cda",
+     "nota": "reemplaza al sake"
+    },
+    {
+     "id": "i9",
+     "nombre": "Salsa de soja",
+     "cantidad": 3,
+     "unidad": "cda"
+    }
+   ],
+   "pasos": [
+    {
+     "titulo": "Cortar",
+     "texto": "Pelá las papas ({i5}) y cortalas en trozos grandes de unos 4 cm. Cortá la cebolla en cuñas y la zanahoria ({i4}) en trozos."
+    },
+    {
+     "titulo": "Dorar la carne",
+     "texto": "En una olla calentá {i1} de aceite a fuego medio-alto y salteá {i2} de carne hasta que cambie de color.",
+     "timerSeg": 120
+    },
+    {
+     "titulo": "Saltear las verduras",
+     "texto": "Agregá la cebolla, la zanahoria y las papas. Salteá hasta que se cubran de aceite.",
+     "timerSeg": 180
+    },
+    {
+     "titulo": "Agregar el caldo",
+     "texto": "Sumá {i6} de caldo, {i7} de azúcar y {i8} de vino. Llevá a hervor y retirá la espuma que sube a la superficie."
+    },
+    {
+     "titulo": "Cocinar tapado",
+     "texto": "Cubrí el guiso con un círculo de papel manteca con un agujero en el centro, apoyado directo sobre el caldo. Bajá el fuego y cociná a hervor suave. El papel hace que la cocción sea pareja.",
+     "timerSeg": 900
+    },
+    {
+     "titulo": "Agregar la salsa de soja",
+     "texto": "Agregá {i9} de salsa de soja y seguí cocinando sin tapar, hasta que las papas estén tiernas y el caldo se haya reducido.",
+     "timerSeg": 600
+    },
+    {
+     "titulo": "Reposar",
+     "texto": "Apagá el fuego y dejá reposar. Mientras se enfría un poco, las papas absorben el sabor.",
+     "timerSeg": 600
+    }
+   ],
+   "consejos": [
+    "Es un clásico plato casero japonés, el sabor de «la comida de mamá».",
+    "Mejora al día siguiente: se puede hacer de antemano y recalentar.",
+    "No lo revuelvas demasiado al final para que las papas no se deshagan."
+   ],
+   "reemplazos": [
+    "Caldo: tradicionalmente es dashi. Con caldo de verduras o de carne queda bien.",
+    "Sake y mirin: se reemplazan por vino blanco seco y un poco más de azúcar.",
+    "Se puede hacer con cerdo en láminas en lugar de res."
+   ],
+   "notaPorciones": "Usá una olla ancha para más porciones. Los tiempos de cocción no cambian al modificar las porciones."
+  },
+  {
+   "id": "JP-08",
+   "pais": "JP",
+   "nombre": "Pollo teriyaki",
+   "descripcion": "Pollo glaseado en salsa de soja y azúcar",
+   "tipo": "Principal",
+   "tiempoTexto": "30 min",
+   "tiempoMin": 30,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": true,
+   "porciones": 4,
+   "ingredientes": [
+    {
+     "id": "i1",
+     "nombre": "Muslos de pollo deshuesados, con piel",
+     "cantidad": 700,
+     "unidad": "g"
+    },
+    {
+     "id": "i2",
+     "nombre": "Sal",
+     "cantidad": 0.5,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i3",
+     "nombre": "Pimienta negra molida",
+     "cantidad": 0.25,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i4",
+     "nombre": "Aceite",
+     "cantidad": 1,
+     "unidad": "cda"
+    },
+    {
+     "id": "i5",
+     "nombre": "Salsa de soja",
+     "cantidad": 4,
+     "unidad": "cda",
+     "nota": "para la salsa"
+    },
+    {
+     "id": "i6",
+     "nombre": "Vino blanco seco",
+     "cantidad": 4,
+     "unidad": "cda",
+     "nota": "reemplaza al sake y al mirin"
+    },
+    {
+     "id": "i7",
+     "nombre": "Azúcar",
+     "cantidad": 2,
+     "unidad": "cda",
+     "nota": "para la salsa"
+    },
+    {
+     "id": "i8",
+     "nombre": "Jengibre fresco rallado",
+     "cantidad": 1,
+     "unidad": "cdta",
+     "nota": "para la salsa"
+    },
+    {
+     "id": "i9",
+     "nombre": "Ajo, rallado",
+     "cantidad": 1,
+     "unidad": "diente",
+     "nota": "para la salsa"
+    },
+    {
+     "id": "i10",
+     "nombre": "Arroz de grano corto (crudo)",
+     "cantidad": 2,
+     "unidad": "taza"
+    },
+    {
+     "id": "i11",
+     "nombre": "Semillas de sésamo tostadas",
+     "cantidad": null,
+     "unidad": "",
+     "nota": "para servir"
+    },
+    {
+     "id": "i12",
+     "nombre": "Cebolla de verdeo picada",
+     "cantidad": null,
+     "unidad": "",
+     "nota": "para servir"
+    }
+   ],
+   "pasos": [
+    {
+     "titulo": "Cocinar el arroz",
+     "texto": "Lavá {i10} de arroz hasta que el agua salga casi clara y cocinalo como siempre. Dejalo tapado.",
+     "timerSeg": 1200
+    },
+    {
+     "titulo": "Preparar el pollo",
+     "texto": "Secá el pollo ({i1}) con papel de cocina. Salpimentalo con {i2} de sal y {i3} de pimienta."
+    },
+    {
+     "titulo": "Dorar la piel",
+     "texto": "En una sartén antiadherente calentá {i4} de aceite a fuego medio. Poné el pollo con la piel hacia abajo y presionalo apenas. Cociná hasta que la piel esté dorada y crujiente.",
+     "timerSeg": 360
+    },
+    {
+     "titulo": "Dar vuelta",
+     "texto": "Dalo vuelta y cociná del otro lado hasta que esté cocido. Con papel de cocina, sacá el exceso de grasa de la sartén.",
+     "timerSeg": 240
+    },
+    {
+     "titulo": "Glasear",
+     "texto": "Mezclá {i5} de salsa de soja, {i6} de vino blanco, {i7} de azúcar, {i8} de jengibre y {i9} de ajo. Volcá la salsa sobre el pollo. Cociná dando vuelta el pollo hasta que la salsa se vuelva espesa y brillante.",
+     "timerSeg": 300
+    },
+    {
+     "titulo": "Reposar y servir",
+     "texto": "Dejá reposar unos minutos y cortá el pollo en tiras. Serví sobre el arroz, con la salsa de la sartén por encima, sésamo y cebolla de verdeo.",
+     "timerSeg": 180
+    }
+   ],
+   "consejos": [
+    "La piel crocante es lo que hace especial este plato: empezá siempre con el lado de la piel.",
+    "La salsa tiene que quedar con una consistencia de almíbar. Si se pasa y se pone muy espesa, agregale unas cucharadas de agua.",
+    "También sirve con salmón o con cerdo."
+   ],
+   "reemplazos": [
+    "Sake y mirin: se reemplazan por vino blanco seco y un poco más de azúcar.",
+    "Si preferís sin piel, usá muslos sin piel y agregales un poco más de aceite."
+   ],
+   "notaPorciones": "Si cocinás más porciones, usá una sartén grande o cociná en tandas. Los tiempos de cocción no cambian al modificar las porciones."
+  },
+  {
+   "id": "JP-09",
+   "pais": "JP",
+   "nombre": "Miso shiru",
+   "descripcion": "Sopa de miso con tofu y algas",
+   "tipo": "Sopa",
+   "tiempoTexto": "15 min",
+   "tiempoMin": 15,
+   "dificultad": "Fácil",
+   "ingredientesAR": "No",
+   "vegetariano": true,
+   "desarrollada": true,
+   "porciones": 4,
+   "ingredientes": [
+    {
+     "id": "i1",
+     "nombre": "Agua fría",
+     "cantidad": 800,
+     "unidad": "ml"
+    },
+    {
+     "id": "i2",
+     "nombre": "Alga kombu (trozo de 10 cm)",
+     "cantidad": 1,
+     "unidad": "u",
+     "plural": "algas kombu (trozos de 10 cm)"
+    },
+    {
+     "id": "i3",
+     "nombre": "Wakame seca",
+     "cantidad": 2,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i4",
+     "nombre": "Tofu firme, en cubos",
+     "cantidad": 200,
+     "unidad": "g"
+    },
+    {
+     "id": "i5",
+     "nombre": "Pasta de miso",
+     "cantidad": 3,
+     "unidad": "cda"
+    },
+    {
+     "id": "i6",
+     "nombre": "Cebolla de verdeo, en rodajas finas",
+     "cantidad": 2,
+     "unidad": "u",
+     "plural": "cebollas de verdeo, en rodajas finas"
+    }
+   ],
+   "pasos": [
+    {
+     "titulo": "Caldo de kombu",
+     "texto": "Poné {i1} de agua fría con el kombu en una olla. Calentá a fuego medio-bajo hasta que empiecen a salir burbujitas muy pequeñas en los bordes, sin que llegue a hervir. Retirá el kombu.",
+     "timerSeg": 600
+    },
+    {
+     "titulo": "Hidratar el wakame",
+     "texto": "Mientras tanto, poné {i3} de wakame en un bowl con agua fría. Se hincha mucho. Escurrilo.",
+     "timerSeg": 300
+    },
+    {
+     "titulo": "Calentar el tofu",
+     "texto": "Agregá el tofu ({i4}) al caldo y calentá a fuego bajo.",
+     "timerSeg": 120
+    },
+    {
+     "titulo": "Disolver el miso",
+     "texto": "Apagá el fuego. Poné {i5} de miso en un cucharón o un colador, sumergilo en el caldo y disolvelo con una cuchara. Si hervís el miso, pierde aroma y sabor."
+    },
+    {
+     "titulo": "Servir",
+     "texto": "Agregá el wakame escurrido. Serví enseguida en bowls, con la cebolla de verdeo por encima."
+    }
+   ],
+   "consejos": [
+    "El miso nunca se hierve: se agrega con el fuego apagado.",
+    "Es una sopa que se toma en Japón en el desayuno y en la comida, acompañando el arroz.",
+    "Con este caldo de kombu la sopa es vegetariana. Con dashi de bonito, que es el más común, ya no lo es."
+   ],
+   "reemplazos": [
+    "Miso, kombu y wakame: se consiguen en tiendas de productos asiáticos, dietéticas grandes y algunos supermercados.",
+    "Sin kombu: se puede usar caldo de verduras suave, aunque el sabor es distinto.",
+    "Tofu: también va bien con cubitos de zapallo o con champiñones."
+   ],
+   "notaPorciones": "Es mejor hacerla de a poco: recalentada pierde aroma. Los tiempos de cocción no cambian al modificar las porciones."
+  },
+  {
+   "id": "JP-10",
+   "pais": "JP",
+   "nombre": "Okonomiyaki",
+   "descripcion": "Panqueque salado de repollo con salsa y mayonesa",
+   "tipo": "Principal",
+   "tiempoTexto": "40 min",
+   "tiempoMin": 40,
+   "dificultad": "Media",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": true,
+   "porciones": 2,
+   "ingredientes": [
+    {
+     "id": "i1",
+     "nombre": "Harina",
+     "cantidad": 100,
+     "unidad": "g"
+    },
+    {
+     "id": "i2",
+     "nombre": "Polvo de hornear",
+     "cantidad": 0.5,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i3",
+     "nombre": "Agua fría (o caldo)",
+     "cantidad": 150,
+     "unidad": "ml"
+    },
+    {
+     "id": "i4",
+     "nombre": "Huevo",
+     "cantidad": 2,
+     "unidad": "u",
+     "plural": "huevos"
+    },
+    {
+     "id": "i5",
+     "nombre": "Repollo, picado muy fino",
+     "cantidad": 250,
+     "unidad": "g"
+    },
+    {
+     "id": "i6",
+     "nombre": "Cebolla de verdeo, picada",
+     "cantidad": 2,
+     "unidad": "u",
+     "plural": "cebollas de verdeo, picadas"
+    },
+    {
+     "id": "i7",
+     "nombre": "Panceta ahumada en fetas finas",
+     "cantidad": 80,
+     "unidad": "g"
+    },
+    {
+     "id": "i8",
+     "nombre": "Aceite",
+     "cantidad": 2,
+     "unidad": "cda"
+    },
+    {
+     "id": "i9",
+     "nombre": "Ketchup",
+     "cantidad": 2,
+     "unidad": "cda",
+     "nota": "para la salsa"
+    },
+    {
+     "id": "i10",
+     "nombre": "Salsa inglesa",
+     "cantidad": 1,
+     "unidad": "cda",
+     "nota": "para la salsa"
+    },
+    {
+     "id": "i11",
+     "nombre": "Salsa de soja",
+     "cantidad": 1,
+     "unidad": "cdta",
+     "nota": "para la salsa"
+    },
+    {
+     "id": "i12",
+     "nombre": "Azúcar",
+     "cantidad": 1,
+     "unidad": "cdta",
+     "nota": "para la salsa"
+    },
+    {
+     "id": "i13",
+     "nombre": "Mayonesa",
+     "cantidad": 2,
+     "unidad": "cda",
+     "nota": "para servir"
+    },
+    {
+     "id": "i14",
+     "nombre": "Aonori o katsuobushi",
+     "cantidad": null,
+     "unidad": "",
+     "nota": "opcional, para servir"
+    }
+   ],
+   "pasos": [
+    {
+     "titulo": "Preparar la masa",
+     "texto": "Mezclá {i1} de harina con {i2} de polvo de hornear, {i3} de agua y una pizca de sal. Dejá reposar la masa.",
+     "timerSeg": 300
+    },
+    {
+     "titulo": "Agregar el repollo",
+     "texto": "Sumá {i5} de repollo, la cebolla de verdeo y {i4}. Mezclá lo justo, sin batir demasiado, para que la mezcla quede aireada."
+    },
+    {
+     "titulo": "Hacer la salsa",
+     "texto": "Mezclá {i9} de ketchup, {i10} de salsa inglesa, {i11} de salsa de soja y {i12} de azúcar."
+    },
+    {
+     "titulo": "Cocinar el primer lado",
+     "texto": "En una sartén antiadherente grande calentá la mitad de {i8} de aceite a fuego medio. Volcá la mitad de la mezcla y formá un panqueque grueso, de unos 2 cm de alto. Poné la mitad de {i7} de panceta encima. Tapá y cociná a fuego medio-bajo.",
+     "timerSeg": 300
+    },
+    {
+     "titulo": "Dar vuelta",
+     "texto": "Ayudándote con un plato, dalo vuelta y cociná del otro lado hasta que la panceta quede crocante y el centro esté cocido.",
+     "timerSeg": 300
+    },
+    {
+     "titulo": "Repetir",
+     "texto": "Hacé lo mismo con el resto de la mezcla y de la panceta."
+    },
+    {
+     "titulo": "Terminar",
+     "texto": "Pincelá con la salsa, hacé hilos con {i13} de mayonesa por encima y, si tenés, espolvoreá con aonori o katsuobushi."
+    }
+   ],
+   "consejos": [
+    "Okonomiyaki significa «lo que quieras, a la plancha»: se le puede agregar camarones, queso, cebolla o lo que haya.",
+    "Si lo das vuelta cuando todavía está crudo, se desarma. Esperá a que el borde esté firme.",
+    "Se puede cocinar a fuego bajo y tapado para que el centro se cocine bien sin quemarse."
+   ],
+   "reemplazos": [
+    "Salsa okonomi: es parecida a la tonkatsu. Esta versión con ketchup y salsa inglesa es una buena aproximación.",
+    "Aonori y katsuobushi: son opcionales y se consiguen en tiendas de productos asiáticos.",
+    "Panceta: sirve también jamón cocido o cerdo en láminas finas."
+   ],
+   "notaPorciones": "Cada okonomiyaki se cocina de a uno. Para más porciones, hacelos en tandas y mantené los primeros en el horno tibio. Los tiempos de cocción no cambian al modificar las porciones."
+  },
+  {
+   "id": "MX-01",
+   "pais": "MX",
+   "nombre": "Tacos de carne asada",
+   "descripcion": "Tortillas con carne a la plancha, cebolla, cilantro y salsa",
+   "tipo": "Principal",
+   "tiempoTexto": "40 min + marinado",
+   "tiempoMin": 40,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": true,
+   "porciones": 4,
+   "ingredientes": [
+    {
+     "id": "i1",
+     "nombre": "Entraña, bife ancho o vacío",
+     "cantidad": 600,
+     "unidad": "g"
+    },
+    {
+     "id": "i2",
+     "nombre": "Jugo de limón",
+     "cantidad": 60,
+     "unidad": "ml",
+     "nota": "para la marinada"
+    },
+    {
+     "id": "i3",
+     "nombre": "Jugo de naranja",
+     "cantidad": 60,
+     "unidad": "ml",
+     "nota": "para la marinada"
+    },
+    {
+     "id": "i4",
+     "nombre": "Ajo, picado",
+     "cantidad": 3,
+     "unidad": "diente"
+    },
+    {
+     "id": "i5",
+     "nombre": "Aceite",
+     "cantidad": 3,
+     "unidad": "cda"
+    },
+    {
+     "id": "i6",
+     "nombre": "Comino",
+     "cantidad": 1,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i7",
+     "nombre": "Orégano seco",
+     "cantidad": 1,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i8",
+     "nombre": "Ají molido",
+     "cantidad": 0.5,
+     "unidad": "cdta",
+     "nota": "a gusto"
+    },
+    {
+     "id": "i9",
+     "nombre": "Sal",
+     "cantidad": 1.5,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i10",
+     "nombre": "Tomates perita, en cubitos",
+     "cantidad": 2,
+     "unidad": "u",
+     "plural": "tomates perita, en cubitos",
+     "nota": "para el pico de gallo"
+    },
+    {
+     "id": "i11",
+     "nombre": "Cebolla morada, picada fina",
+     "cantidad": 1,
+     "unidad": "u",
+     "plural": "cebollas moradas, picadas finas",
+     "nota": "para el pico de gallo"
+    },
+    {
+     "id": "i12",
+     "nombre": "Cilantro fresco picado",
+     "cantidad": 4,
+     "unidad": "cda",
+     "nota": "para el pico de gallo"
+    },
+    {
+     "id": "i13",
+     "nombre": "Jugo de limón",
+     "cantidad": 1,
+     "unidad": "cda",
+     "nota": "para el pico de gallo"
+    },
+    {
+     "id": "i14",
+     "nombre": "Ají picante fresco, picado",
+     "cantidad": null,
+     "unidad": "",
+     "nota": "opcional, para el pico de gallo"
+    },
+    {
+     "id": "i15",
+     "nombre": "Tortillas de maíz chicas",
+     "cantidad": 12,
+     "unidad": "u",
+     "plural": "tortillas de maíz chicas"
+    },
+    {
+     "id": "i16",
+     "nombre": "Limón",
+     "cantidad": 2,
+     "unidad": "u",
+     "plural": "limones",
+     "nota": "para servir"
+    }
+   ],
+   "pasos": [
+    {
+     "titulo": "Marinar la carne",
+     "texto": "Mezclá {i2} de jugo de limón, {i3} de jugo de naranja, {i4} de ajo, {i5} de aceite, {i6} de comino, {i7} de orégano, {i8} de ají molido y {i9} de sal. Poné {i1} de carne en una fuente, bañala con la marinada, tapá y llevala a la heladera.",
+     "timerSeg": 1800
+    },
+    {
+     "titulo": "Hacer el pico de gallo",
+     "texto": "Mezclá los tomates, la cebolla morada, {i12} de cilantro, {i13} de jugo de limón, el ají picante y una pizca de sal. Dejalo reposar.",
+     "timerSeg": 600
+    },
+    {
+     "titulo": "Cocinar la carne",
+     "texto": "Calentá muy bien una plancha, una parrilla o una sartén de hierro. Sacá la carne de la marinada, secala apenas y cocinala unos minutos de cada lado, para que quede jugosa por dentro y bien marcada por fuera.",
+     "timerSeg": 420
+    },
+    {
+     "titulo": "Reposar y cortar",
+     "texto": "Dejá reposar la carne unos minutos para que no se escape el jugo. Cortala en cubitos chicos, contra la fibra.",
+     "timerSeg": 300
+    },
+    {
+     "titulo": "Calentar las tortillas",
+     "texto": "Calentá {i15} en una sartén seca, medio minuto de cada lado. Mantenelas envueltas en un trapo para que no se sequen."
+    },
+    {
+     "titulo": "Armar los tacos",
+     "texto": "Rellená cada tortilla con carne, pico de gallo y un chorrito de limón. Serví con {i16} cortados en gajos."
+    }
+   ],
+   "consejos": [
+    "No marines la carne más de 2 horas: el ácido del limón la vuelve blanda y pastosa.",
+    "La clave es una plancha muy caliente: así la carne se dora por fuera sin cocinarse de más.",
+    "Los tacos se arman al momento. Cada comensal se arma el suyo con lo que quiere."
+   ],
+   "reemplazos": [
+    "Entraña: es el corte parecido a la arrachera mexicana. También sirve el vacío o el bife ancho.",
+    "Tortillas de maíz: si no las conseguís, usá tortillas de trigo chicas, que se venden en muchos supermercados. También se pueden hacer en casa con harina de maíz precocida (la de las arepas), agua tibia y sal.",
+    "Cilantro: se consigue en verdulerías. Si no, reemplazalo por perejil."
+   ],
+   "notaPorciones": "Si cocinás más porciones, hacé la carne en tandas. Los tiempos de cocción no cambian al modificar las porciones."
+  },
+  {
+   "id": "MX-02",
+   "pais": "MX",
+   "nombre": "Enchiladas rojas de pollo",
+   "descripcion": "Tortillas rellenas bañadas en salsa de chile",
+   "tipo": "Principal",
+   "tiempoTexto": "50 min",
+   "tiempoMin": 50,
+   "dificultad": "Media",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": true,
+   "porciones": 4,
+   "ingredientes": [
+    {
+     "id": "i1",
+     "nombre": "Pechuga de pollo",
+     "cantidad": 500,
+     "unidad": "g"
+    },
+    {
+     "id": "i2",
+     "nombre": "Cebolla, en cuartos",
+     "cantidad": 1,
+     "unidad": "u",
+     "plural": "cebollas, en cuartos",
+     "nota": "para hervir el pollo"
+    },
+    {
+     "id": "i3",
+     "nombre": "Laurel",
+     "cantidad": 2,
+     "unidad": "hoja"
+    },
+    {
+     "id": "i4",
+     "nombre": "Tomates perita",
+     "cantidad": 500,
+     "unidad": "g"
+    },
+    {
+     "id": "i5",
+     "nombre": "Cebolla",
+     "cantidad": 0.5,
+     "unidad": "u",
+     "plural": "cebollas",
+     "nota": "para la salsa"
+    },
+    {
+     "id": "i6",
+     "nombre": "Ajo",
+     "cantidad": 2,
+     "unidad": "diente"
+    },
+    {
+     "id": "i7",
+     "nombre": "Pimentón dulce",
+     "cantidad": 2,
+     "unidad": "cda"
+    },
+    {
+     "id": "i8",
+     "nombre": "Ají molido",
+     "cantidad": 1,
+     "unidad": "cdta",
+     "nota": "a gusto"
+    },
+    {
+     "id": "i9",
+     "nombre": "Comino",
+     "cantidad": 0.5,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i10",
+     "nombre": "Orégano seco",
+     "cantidad": 0.5,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i11",
+     "nombre": "Aceite",
+     "cantidad": 2,
+     "unidad": "cda"
+    },
+    {
+     "id": "i12",
+     "nombre": "Sal",
+     "cantidad": 1,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i13",
+     "nombre": "Tortillas de maíz",
+     "cantidad": 8,
+     "unidad": "u",
+     "plural": "tortillas de maíz"
+    },
+    {
+     "id": "i14",
+     "nombre": "Queso cremoso o mozzarella, rallado",
+     "cantidad": 200,
+     "unidad": "g"
+    },
+    {
+     "id": "i15",
+     "nombre": "Crema de leche",
+     "cantidad": 100,
+     "unidad": "ml",
+     "nota": "para servir"
+    },
+    {
+     "id": "i16",
+     "nombre": "Cebolla morada, en aros finos",
+     "cantidad": null,
+     "unidad": "",
+     "nota": "para servir"
+    }
+   ],
+   "pasos": [
+    {
+     "titulo": "Hervir el pollo",
+     "texto": "Poné {i1} de pechuga en una olla con agua, la cebolla en cuartos y {i3} de laurel. Hervilo a fuego medio hasta que esté cocido. Sacalo, dejalo entibiar y deshebralo. Guardá un vaso del caldo.",
+     "timerSeg": 1500
+    },
+    {
+     "titulo": "Licuar la salsa",
+     "texto": "En la licuadora poné {i4} de tomates, la media cebolla, {i6} de ajo, {i7} de pimentón, {i8} de ají molido, {i9} de comino, {i10} de orégano y medio vaso del caldo del pollo. Licuá hasta que quede una salsa lisa."
+    },
+    {
+     "titulo": "Cocinar la salsa",
+     "texto": "En una sartén honda calentá {i11} de aceite. Volcá la salsa con cuidado, porque salpica. Cociná revolviendo hasta que espese y se oscurezca. Agregá {i12} de sal.",
+     "timerSeg": 600
+    },
+    {
+     "titulo": "Rellenar",
+     "texto": "Precalentá el horno a 200 °C. Calentá {i13} unos segundos de cada lado en una sartén seca, para que se ablanden. Pasá cada una por la salsa, rellenala con pollo y un poco de queso, enrollala y acomodala en una fuente con el cierre hacia abajo."
+    },
+    {
+     "titulo": "Gratinar",
+     "texto": "Bañá las enchiladas con la salsa que sobró, cubrí con el resto de los {i14} de queso y llevá al horno hasta que el queso se derrita y burbujee.",
+     "timerSeg": 600
+    },
+    {
+     "titulo": "Servir",
+     "texto": "Serví calientes, con {i15} de crema por encima y cebolla morada en aros."
+    }
+   ],
+   "consejos": [
+    "Pasar las tortillas por la salsa tibia las ablanda y evita que se rompan al enrollarlas.",
+    "Se pueden armar antes y hornear a último momento.",
+    "Es un plato típico de México, y cada región tiene su versión de la salsa."
+   ],
+   "reemplazos": [
+    "Chiles secos (guajillo, ancho): no se consiguen fácil. El pimentón dulce con un poco de ají molido da un sabor parecido, aunque menos complejo.",
+    "Tortillas de maíz: si no las conseguís, usá tortillas de trigo chicas, que se venden en muchos supermercados. También se pueden hacer en casa con harina de maíz precocida (la de las arepas), agua tibia y sal.",
+    "Queso: en México se usa queso fresco o Chihuahua. Con cremoso o mozzarella queda muy bien."
+   ],
+   "notaPorciones": "Usá una fuente donde las enchiladas entren en una sola capa. Los tiempos de cocción no cambian al modificar las porciones."
+  },
+  {
+   "id": "MX-03",
+   "pais": "MX",
+   "nombre": "Pozole rojo",
+   "descripcion": "Sopa de mote (maíz) con cerdo y salsa roja",
+   "tipo": "Sopa",
+   "tiempoTexto": "3 h + remojo",
+   "tiempoMin": 180,
+   "dificultad": "Media",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": true,
+   "porciones": 4,
+   "ingredientes": [
+    {
+     "id": "i1",
+     "nombre": "Mote (maíz blanco pelado)",
+     "cantidad": 300,
+     "unidad": "g",
+     "nota": "remojado desde la noche anterior"
+    },
+    {
+     "id": "i2",
+     "nombre": "Paleta o bondiola de cerdo, en trozos grandes",
+     "cantidad": 800,
+     "unidad": "g"
+    },
+    {
+     "id": "i3",
+     "nombre": "Cebolla, partida al medio",
+     "cantidad": 1,
+     "unidad": "u",
+     "plural": "cebollas, partidas al medio"
+    },
+    {
+     "id": "i4",
+     "nombre": "Ajo, entero",
+     "cantidad": 4,
+     "unidad": "diente"
+    },
+    {
+     "id": "i5",
+     "nombre": "Laurel",
+     "cantidad": 2,
+     "unidad": "hoja"
+    },
+    {
+     "id": "i6",
+     "nombre": "Sal",
+     "cantidad": 2,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i7",
+     "nombre": "Agua",
+     "cantidad": 3,
+     "unidad": "l"
+    },
+    {
+     "id": "i8",
+     "nombre": "Aceite",
+     "cantidad": 2,
+     "unidad": "cda",
+     "nota": "para la salsa roja"
+    },
+    {
+     "id": "i9",
+     "nombre": "Pimentón dulce",
+     "cantidad": 3,
+     "unidad": "cda",
+     "nota": "para la salsa roja"
+    },
+    {
+     "id": "i10",
+     "nombre": "Ají molido",
+     "cantidad": 1,
+     "unidad": "cdta",
+     "nota": "a gusto"
+    },
+    {
+     "id": "i11",
+     "nombre": "Ajo, picado",
+     "cantidad": 2,
+     "unidad": "diente",
+     "nota": "para la salsa roja"
+    },
+    {
+     "id": "i12",
+     "nombre": "Orégano seco",
+     "cantidad": 1,
+     "unidad": "cdta",
+     "nota": "para la salsa roja"
+    },
+    {
+     "id": "i13",
+     "nombre": "Comino",
+     "cantidad": 0.5,
+     "unidad": "cdta",
+     "nota": "para la salsa roja"
+    },
+    {
+     "id": "i14",
+     "nombre": "Repollo, rallado fino",
+     "cantidad": 200,
+     "unidad": "g",
+     "nota": "para servir"
+    },
+    {
+     "id": "i15",
+     "nombre": "Rabanitos, en rodajas",
+     "cantidad": 6,
+     "unidad": "u",
+     "plural": "rabanitos, en rodajas",
+     "nota": "para servir"
+    },
+    {
+     "id": "i16",
+     "nombre": "Cebolla, picada",
+     "cantidad": 1,
+     "unidad": "u",
+     "plural": "cebollas, picadas",
+     "nota": "para servir"
+    },
+    {
+     "id": "i17",
+     "nombre": "Limón",
+     "cantidad": 2,
+     "unidad": "u",
+     "plural": "limones",
+     "nota": "para servir"
+    },
+    {
+     "id": "i18",
+     "nombre": "Orégano seco",
+     "cantidad": null,
+     "unidad": "",
+     "nota": "para servir, y tostadas si querés"
+    }
+   ],
+   "pasos": [
+    {
+     "titulo": "Remojar el mote",
+     "texto": "La noche anterior, poné {i1} de mote en abundante agua fría y dejalo remojar unas 12 horas. Poné una alarma en el celu, porque este paso va el día anterior."
+    },
+    {
+     "titulo": "Cocinar el cerdo y el mote",
+     "texto": "Escurrí el mote y ponelo en una olla grande con {i2} de cerdo, la cebolla partida, {i4} de ajo entero, {i5} de laurel, {i6} de sal y {i7} de agua. Llevá a hervor, retirá la espuma que sube, tapá y cociná a fuego bajo. Está listo cuando el mote está tierno y abierto, y la carne se deshace. Si el agua baja mucho, agregá agua caliente.",
+     "timerSeg": 9000
+    },
+    {
+     "titulo": "Hacer la salsa roja",
+     "texto": "En una sartén calentá {i8} de aceite a fuego bajo. Agregá {i11} de ajo, {i9} de pimentón, {i10} de ají molido, {i12} de orégano y {i13} de comino. Revolvé solo 1 minuto, porque el pimentón se quema rápido y amarga. Sumá un cucharón del caldo de la olla."
+    },
+    {
+     "titulo": "Unir y terminar",
+     "texto": "Retirá la cebolla, el ajo y el laurel de la olla. Sacá los trozos de carne, deshebralos y volvelos a la olla. Agregá la salsa roja, mezclá y cociná unos minutos para que se integre. Probá y corregí la sal.",
+     "timerSeg": 1200
+    },
+    {
+     "titulo": "Servir",
+     "texto": "Serví el pozole caliente en tazones. Cada uno se agrega al gusto repollo rallado ({i14}), rabanitos, cebolla picada, jugo de limón y orégano. Si querés, acompañá con tostadas."
+    }
+   ],
+   "consejos": [
+    "El mote tarda más o menos según la marca: algunos necesitan hasta 3 horas. Probá un grano antes de seguir.",
+    "El pozole es un plato típico de fiestas y celebraciones en México.",
+    "Mejora de un día para otro. Se guarda 3 días en la heladera."
+   ],
+   "reemplazos": [
+    "Maíz cacahuazintle (el original): no se consigue. El mote, que es maíz blanco pelado, es el mejor reemplazo.",
+    "Chiles guajillo y ancho: se reemplazan por pimentón dulce con un poco de ají molido.",
+    "Se puede reemplazar el cerdo por pollo, con una cocción más corta."
+   ],
+   "notaPorciones": "Usá una olla muy grande: el mote se hincha al cocinarse. Los tiempos de cocción no cambian al modificar las porciones."
+  },
+  {
+   "id": "MX-04",
+   "pais": "MX",
+   "nombre": "Tinga de pollo",
+   "descripcion": "Pollo deshebrado en salsa de tomate y chipotle",
+   "tipo": "Principal",
+   "tiempoTexto": "55 min",
+   "tiempoMin": 55,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": true,
+   "porciones": 4,
+   "ingredientes": [
+    {
+     "id": "i1",
+     "nombre": "Pechuga o muslos de pollo",
+     "cantidad": 600,
+     "unidad": "g"
+    },
+    {
+     "id": "i2",
+     "nombre": "Cebolla, en cuartos",
+     "cantidad": 1,
+     "unidad": "u",
+     "plural": "cebollas, en cuartos",
+     "nota": "para hervir el pollo"
+    },
+    {
+     "id": "i3",
+     "nombre": "Laurel",
+     "cantidad": 2,
+     "unidad": "hoja"
+    },
+    {
+     "id": "i4",
+     "nombre": "Tomates perita",
+     "cantidad": 400,
+     "unidad": "g"
+    },
+    {
+     "id": "i5",
+     "nombre": "Ajo",
+     "cantidad": 2,
+     "unidad": "diente"
+    },
+    {
+     "id": "i6",
+     "nombre": "Pimentón ahumado",
+     "cantidad": 2,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i7",
+     "nombre": "Ají molido",
+     "cantidad": 1,
+     "unidad": "cdta",
+     "nota": "a gusto"
+    },
+    {
+     "id": "i8",
+     "nombre": "Vinagre",
+     "cantidad": 1,
+     "unidad": "cda"
+    },
+    {
+     "id": "i9",
+     "nombre": "Aceite",
+     "cantidad": 2,
+     "unidad": "cda"
+    },
+    {
+     "id": "i10",
+     "nombre": "Cebolla, en juliana",
+     "cantidad": 2,
+     "unidad": "u",
+     "plural": "cebollas, en juliana"
+    },
+    {
+     "id": "i11",
+     "nombre": "Orégano seco",
+     "cantidad": 1,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i12",
+     "nombre": "Caldo de cocción del pollo",
+     "cantidad": 150,
+     "unidad": "ml"
+    },
+    {
+     "id": "i13",
+     "nombre": "Sal",
+     "cantidad": 1,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i14",
+     "nombre": "Tostadas o tortillas de maíz",
+     "cantidad": 8,
+     "unidad": "u",
+     "plural": "tostadas o tortillas de maíz",
+     "nota": "para servir"
+    },
+    {
+     "id": "i15",
+     "nombre": "Palta, en rodajas",
+     "cantidad": 1,
+     "unidad": "u",
+     "plural": "paltas, en rodajas",
+     "nota": "para servir"
+    },
+    {
+     "id": "i16",
+     "nombre": "Crema de leche",
+     "cantidad": 100,
+     "unidad": "ml",
+     "nota": "para servir"
+    }
+   ],
+   "pasos": [
+    {
+     "titulo": "Hervir el pollo",
+     "texto": "Poné {i1} de pollo en una olla con agua, la cebolla en cuartos y {i3} de laurel. Hervilo a fuego medio hasta que esté cocido. Sacalo, dejalo entibiar y deshebralo. Guardá el caldo.",
+     "timerSeg": 1500
+    },
+    {
+     "titulo": "Licuar la salsa",
+     "texto": "En la licuadora poné {i4} de tomates, {i5} de ajo, {i6} de pimentón ahumado, {i7} de ají molido y {i8} de vinagre. Licuá hasta que quede una salsa lisa."
+    },
+    {
+     "titulo": "Dorar la cebolla",
+     "texto": "En una sartén honda calentá {i9} de aceite y cociná la cebolla en juliana hasta que esté blanda y apenas dorada.",
+     "timerSeg": 480
+    },
+    {
+     "titulo": "Cocinar la salsa",
+     "texto": "Volcá la salsa licuada con cuidado, porque salpica. Cociná a fuego medio, revolviendo, hasta que espese y se oscurezca.",
+     "timerSeg": 600
+    },
+    {
+     "titulo": "Agregar el pollo",
+     "texto": "Sumá el pollo deshebrado, {i12} de caldo, {i11} de orégano y {i13} de sal. Cociná a fuego bajo para que tome sabor. Probá y corregí.",
+     "timerSeg": 600
+    },
+    {
+     "titulo": "Servir",
+     "texto": "Serví la tinga sobre {i14}, con palta en rodajas y {i16} de crema por encima."
+    }
+   ],
+   "consejos": [
+    "La tinga es uno de los rellenos más populares de México. Se sirve sobre tostadas, en tacos o en sándwiches.",
+    "Sabe mejor de un día para otro y se recalienta bien.",
+    "Si la querés más picante, agregá más ají molido de a poco."
+   ],
+   "reemplazos": [
+    "Chipotle en adobo (el original): se reemplaza por pimentón ahumado y un poco de ají molido, que dan un sabor ahumado picante parecido.",
+    "Tortillas de maíz: si no las conseguís, usá tortillas de trigo chicas, que se venden en muchos supermercados. También se pueden hacer en casa con harina de maíz precocida (la de las arepas), agua tibia y sal."
+   ],
+   "notaPorciones": "Usá una sartén o una olla amplia. Los tiempos de cocción no cambian al modificar las porciones."
+  },
+  {
+   "id": "MX-05",
+   "pais": "MX",
+   "nombre": "Quesadillas",
+   "descripcion": "Tortillas rellenas de queso a la plancha",
+   "tipo": "Principal",
+   "tiempoTexto": "15 min",
+   "tiempoMin": 15,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": true,
+   "desarrollada": true,
+   "porciones": 4,
+   "ingredientes": [
+    {
+     "id": "i1",
+     "nombre": "Tortillas de trigo grandes (de 20 cm)",
+     "cantidad": 4,
+     "unidad": "u",
+     "plural": "tortillas de trigo grandes (de 20 cm)"
+    },
+    {
+     "id": "i2",
+     "nombre": "Queso cremoso, mozzarella o similar, rallado",
+     "cantidad": 300,
+     "unidad": "g"
+    },
+    {
+     "id": "i3",
+     "nombre": "Manteca o aceite",
+     "cantidad": 1,
+     "unidad": "cda"
+    },
+    {
+     "id": "i4",
+     "nombre": "Salsa picante o pico de gallo",
+     "cantidad": null,
+     "unidad": "",
+     "nota": "para servir"
+    },
+    {
+     "id": "i5",
+     "nombre": "Champiñones salteados, jamón o pollo deshebrado",
+     "cantidad": null,
+     "unidad": "",
+     "nota": "opcional, para rellenar"
+    }
+   ],
+   "pasos": [
+    {
+     "titulo": "Preparar el relleno",
+     "texto": "Rallá {i2} de queso. Si vas a usar algún relleno extra, tenelo listo y cocido, para que solo haya que armarlo."
+    },
+    {
+     "titulo": "Calentar la sartén",
+     "texto": "Calentá una sartén a fuego medio-bajo y derretí {i3} de manteca."
+    },
+    {
+     "titulo": "Armar y cocinar",
+     "texto": "Poné una tortilla en la sartén. Cubrí la mitad con queso (y el relleno extra, si lo hay) y doblala al medio. Cociná hasta que esté dorada de los dos lados y el queso se haya derretido por dentro. Repetí con las demás.",
+     "timerSeg": 240
+    },
+    {
+     "titulo": "Servir",
+     "texto": "Cortá cada quesadilla en triángulos y serví enseguida, con salsa picante o pico de gallo."
+    }
+   ],
+   "consejos": [
+    "A fuego medio-bajo el queso se derrite antes de que la tortilla se queme. Si el fuego es muy fuerte, la tortilla se dora pero el queso queda duro.",
+    "Un queso que derrita bien es lo que hace la diferencia: cremoso, mozzarella o una mezcla.",
+    "Es una receta ideal para aprovechar lo que sobre en la heladera."
+   ],
+   "reemplazos": [
+    "Queso Oaxaca: es el original, parecido a una mozzarella en hebras. Con mozzarella queda muy parecido.",
+    "Tortillas de maíz: se pueden usar en lugar de las de trigo, pero necesitan 2 por quesadilla.",
+    "Sin pico de gallo: sirve cualquier salsa picante o un poco de palta."
+   ],
+   "notaPorciones": "Cocinalas de una en una. Los tiempos de cocción no cambian al modificar las porciones."
+  },
+  {
+   "id": "MX-06",
+   "pais": "MX",
+   "nombre": "Sopa azteca",
+   "descripcion": "Sopa de tomate con tiras de tortilla crocantes y palta",
+   "tipo": "Sopa",
+   "tiempoTexto": "40 min",
+   "tiempoMin": 40,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": true,
+   "porciones": 4,
+   "ingredientes": [
+    {
+     "id": "i1",
+     "nombre": "Tomates perita, maduros",
+     "cantidad": 500,
+     "unidad": "g"
+    },
+    {
+     "id": "i2",
+     "nombre": "Cebolla pequeña",
+     "cantidad": 1,
+     "unidad": "u",
+     "plural": "cebollas pequeñas"
+    },
+    {
+     "id": "i3",
+     "nombre": "Ajo",
+     "cantidad": 2,
+     "unidad": "diente"
+    },
+    {
+     "id": "i4",
+     "nombre": "Aceite",
+     "cantidad": 2,
+     "unidad": "cda"
+    },
+    {
+     "id": "i5",
+     "nombre": "Pimentón ahumado",
+     "cantidad": 1,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i6",
+     "nombre": "Ají molido",
+     "cantidad": 0.5,
+     "unidad": "cdta",
+     "nota": "a gusto"
+    },
+    {
+     "id": "i7",
+     "nombre": "Caldo de pollo",
+     "cantidad": 1,
+     "unidad": "l"
+    },
+    {
+     "id": "i8",
+     "nombre": "Sal",
+     "cantidad": 1,
+     "unidad": "cdta",
+     "nota": "probá antes: el caldo ya trae sal"
+    },
+    {
+     "id": "i9",
+     "nombre": "Tortillas de maíz",
+     "cantidad": 6,
+     "unidad": "u",
+     "plural": "tortillas de maíz"
+    },
+    {
+     "id": "i10",
+     "nombre": "Aceite",
+     "cantidad": 150,
+     "unidad": "ml",
+     "nota": "para freír las tortillas"
+    },
+    {
+     "id": "i11",
+     "nombre": "Palta, en cubos",
+     "cantidad": 1,
+     "unidad": "u",
+     "plural": "paltas, en cubos",
+     "nota": "para servir"
+    },
+    {
+     "id": "i12",
+     "nombre": "Queso cremoso, en cubos",
+     "cantidad": 150,
+     "unidad": "g",
+     "nota": "para servir"
+    },
+    {
+     "id": "i13",
+     "nombre": "Crema de leche",
+     "cantidad": 4,
+     "unidad": "cda",
+     "nota": "para servir"
+    },
+    {
+     "id": "i14",
+     "nombre": "Limón",
+     "cantidad": 1,
+     "unidad": "u",
+     "plural": "limones",
+     "nota": "para servir"
+    }
+   ],
+   "pasos": [
+    {
+     "titulo": "Licuar",
+     "texto": "En la licuadora poné {i1} de tomates, la cebolla y {i3} de ajo. Licuá hasta que quede liso."
+    },
+    {
+     "titulo": "Cocinar la base",
+     "texto": "En una olla calentá {i4} de aceite. Volcá lo licuado con cuidado, porque salpica, y agregá {i5} de pimentón ahumado y {i6} de ají molido. Cociná a fuego medio, revolviendo, hasta que espese y se oscurezca.",
+     "timerSeg": 300
+    },
+    {
+     "titulo": "Agregar el caldo",
+     "texto": "Sumá {i7} de caldo y {i8} de sal. Llevá a hervor y cociná a fuego bajo.",
+     "timerSeg": 900
+    },
+    {
+     "titulo": "Freír las tortillas",
+     "texto": "Mientras tanto, cortá {i9} en tiras finas. Calentá {i10} de aceite en una sartén y freí las tiras hasta que estén doradas y crocantes. Escurrilas sobre papel de cocina.",
+     "timerSeg": 240
+    },
+    {
+     "titulo": "Servir",
+     "texto": "Poné en cada tazón tiras de tortilla, palta, queso en cubos y {i13} de crema. Volcá el caldo caliente encima. Servilo con gajos de {i14}."
+    }
+   ],
+   "consejos": [
+    "Las tiras de tortilla se agregan en el tazón, no en la olla, para que sigan crocantes.",
+    "El caldo se puede hacer con caldo casero o de cubito. Si es de cubito, cuidá la sal.",
+    "Es una sopa que se arma con lo que tenés: palta, queso, crema, cilantro, chicharrón."
+   ],
+   "reemplazos": [
+    "Chile pasilla (el original): se reemplaza por pimentón ahumado y ají molido.",
+    "Tortillas de maíz: si no las conseguís, usá tortillas de trigo chicas, que se venden en muchos supermercados. También se pueden hacer en casa con harina de maíz precocida (la de las arepas), agua tibia y sal.",
+    "Queso fresco mexicano: se reemplaza por queso cremoso o por ricota firme."
+   ],
+   "notaPorciones": "Usá una olla más grande para más porciones. Los tiempos de cocción no cambian al modificar las porciones."
+  },
+  {
+   "id": "MX-07",
+   "pais": "MX",
+   "nombre": "Arroz rojo",
+   "descripcion": "Arroz cocido con tomate, cebolla y ajo",
+   "tipo": "Guarnición",
+   "tiempoTexto": "35 min",
+   "tiempoMin": 35,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": true,
+   "desarrollada": true,
+   "porciones": 4,
+   "ingredientes": [
+    {
+     "id": "i1",
+     "nombre": "Arroz largo fino (crudo)",
+     "cantidad": 1.5,
+     "unidad": "taza"
+    },
+    {
+     "id": "i2",
+     "nombre": "Aceite",
+     "cantidad": 3,
+     "unidad": "cda"
+    },
+    {
+     "id": "i3",
+     "nombre": "Tomates perita",
+     "cantidad": 300,
+     "unidad": "g"
+    },
+    {
+     "id": "i4",
+     "nombre": "Cebolla",
+     "cantidad": 0.25,
+     "unidad": "u",
+     "plural": "cebollas"
+    },
+    {
+     "id": "i5",
+     "nombre": "Ajo",
+     "cantidad": 1,
+     "unidad": "diente"
+    },
+    {
+     "id": "i6",
+     "nombre": "Caldo de verduras (o agua)",
+     "cantidad": 450,
+     "unidad": "ml"
+    },
+    {
+     "id": "i7",
+     "nombre": "Sal",
+     "cantidad": 1,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i8",
+     "nombre": "Zanahoria, en cubitos",
+     "cantidad": 1,
+     "unidad": "u",
+     "plural": "zanahorias, en cubitos",
+     "nota": "opcional"
+    },
+    {
+     "id": "i9",
+     "nombre": "Arvejas",
+     "cantidad": 100,
+     "unidad": "g",
+     "nota": "opcional"
+    }
+   ],
+   "pasos": [
+    {
+     "titulo": "Lavar el arroz",
+     "texto": "Lavá {i1} de arroz varias veces hasta que el agua salga casi clara. Escurrilo muy bien."
+    },
+    {
+     "titulo": "Licuar los tomates",
+     "texto": "En la licuadora poné {i3} de tomates, la cebolla y {i5} de ajo, con un chorrito de agua. Licuá hasta que quede un puré liso."
+    },
+    {
+     "titulo": "Tostar el arroz",
+     "texto": "En una olla calentá {i2} de aceite a fuego medio. Agregá el arroz bien escurrido y cocinalo, revolviendo, hasta que esté dorado y opaco.",
+     "timerSeg": 300
+    },
+    {
+     "titulo": "Agregar el tomate",
+     "texto": "Volcá el puré de tomate con cuidado, porque salpica. Cociná revolviendo hasta que se absorba parte del líquido."
+    },
+    {
+     "titulo": "Cocinar el arroz",
+     "texto": "Sumá {i6} de caldo caliente, {i7} de sal, la zanahoria y las arvejas. Mezclá una sola vez, tapá y cociná a fuego mínimo, sin destapar.",
+     "timerSeg": 1080
+    },
+    {
+     "titulo": "Reposar",
+     "texto": "Apagá el fuego y dejá reposar tapado. Después aireá el arroz con un tenedor.",
+     "timerSeg": 600
+    }
+   ],
+   "consejos": [
+    "Tostar el arroz antes de agregar el líquido es lo que lo deja suelto y con sabor.",
+    "No lo destapes ni lo revuelvas mientras se cocina, para que no se pegue.",
+    "Es el acompañamiento clásico de los platos mexicanos."
+   ],
+   "reemplazos": [
+    "Caldo: si usás agua, agregale una pizca más de sal o un cubito de caldo.",
+    "Arroz: va bien con un arroz largo fino. Un arroz de grano grueso o parboil necesita más líquido y más tiempo."
+   ],
+   "notaPorciones": "Usá una olla más grande para más porciones, y respetá la proporción de líquido. Los tiempos de cocción no cambian al modificar las porciones."
+  },
+  {
+   "id": "MX-08",
+   "pais": "MX",
+   "nombre": "Picadillo",
+   "descripcion": "Carne molida con papa, zanahoria y tomate",
+   "tipo": "Principal",
+   "tiempoTexto": "40 min",
+   "tiempoMin": 40,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": true,
+   "porciones": 4,
+   "ingredientes": [
+    {
+     "id": "i1",
+     "nombre": "Aceite",
+     "cantidad": 2,
+     "unidad": "cda"
+    },
+    {
+     "id": "i2",
+     "nombre": "Cebolla, picada",
+     "cantidad": 1,
+     "unidad": "u",
+     "plural": "cebollas, picadas"
+    },
+    {
+     "id": "i3",
+     "nombre": "Ajo, picado",
+     "cantidad": 2,
+     "unidad": "diente"
+    },
+    {
+     "id": "i4",
+     "nombre": "Carne picada de res",
+     "cantidad": 500,
+     "unidad": "g"
+    },
+    {
+     "id": "i5",
+     "nombre": "Comino",
+     "cantidad": 1,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i6",
+     "nombre": "Orégano seco",
+     "cantidad": 0.5,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i7",
+     "nombre": "Pimienta negra molida",
+     "cantidad": 0.25,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i8",
+     "nombre": "Tomates perita, rallados o triturados",
+     "cantidad": 400,
+     "unidad": "g"
+    },
+    {
+     "id": "i9",
+     "nombre": "Papas, en cubitos de 1 cm",
+     "cantidad": 300,
+     "unidad": "g"
+    },
+    {
+     "id": "i10",
+     "nombre": "Zanahorias, en cubitos de 1 cm",
+     "cantidad": 200,
+     "unidad": "g"
+    },
+    {
+     "id": "i11",
+     "nombre": "Caldo de carne (o agua)",
+     "cantidad": 150,
+     "unidad": "ml"
+    },
+    {
+     "id": "i12",
+     "nombre": "Laurel",
+     "cantidad": 1,
+     "unidad": "hoja"
+    },
+    {
+     "id": "i13",
+     "nombre": "Sal",
+     "cantidad": 1,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i14",
+     "nombre": "Aceitunas verdes, en rodajas",
+     "cantidad": 50,
+     "unidad": "g",
+     "nota": "opcional"
+    }
+   ],
+   "pasos": [
+    {
+     "titulo": "Sofreír la base",
+     "texto": "En una sartén honda o una olla calentá {i1} de aceite. Sofreí la cebolla con {i3} de ajo hasta que la cebolla esté transparente.",
+     "timerSeg": 240
+    },
+    {
+     "titulo": "Dorar la carne",
+     "texto": "Agregá {i4} de carne picada y cocinala, desgranándola con una cuchara de madera, hasta que se dore y no quede líquido.",
+     "timerSeg": 480
+    },
+    {
+     "titulo": "Agregar el tomate y las especias",
+     "texto": "Sumá {i8} de tomate, {i5} de comino, {i6} de orégano y {i7} de pimienta. Cociná revolviendo hasta que se reduzca un poco.",
+     "timerSeg": 300
+    },
+    {
+     "titulo": "Cocinar con las verduras",
+     "texto": "Agregá {i9} de papas, {i10} de zanahoria, {i11} de caldo, {i12} de laurel y {i13} de sal. Tapá y cociná a fuego bajo, hasta que las verduras estén tiernas.",
+     "timerSeg": 1200
+    },
+    {
+     "titulo": "Reducir y terminar",
+     "texto": "Destapá y cociná unos minutos más, hasta que el líquido se reduzca y quede jugoso, no aguado. Agregá las aceitunas si querés. Probá y corregí la sal.",
+     "timerSeg": 300
+    },
+    {
+     "titulo": "Servir",
+     "texto": "Serví el picadillo con arroz, en tacos o sobre tostadas."
+    }
+   ],
+   "consejos": [
+    "Cortá las verduras bien chiquitas: se cocinan más rápido y quedan parejas con la carne.",
+    "Es muy versátil: sirve de relleno de tacos, empanadas, chiles rellenos o pimientos.",
+    "Se recalienta muy bien y es ideal para dejar listo con anticipación."
+   ],
+   "reemplazos": [
+    "Comino y orégano: son la base del sabor mexicano de este plato.",
+    "Se pueden agregar pasas de uva (50 g) y almendras picadas para una versión más dulce.",
+    "Sirve también carne picada de cerdo, o mitad res y mitad cerdo."
+   ],
+   "notaPorciones": "Usá una sartén o una olla amplia. Los tiempos de cocción no cambian al modificar las porciones."
+  },
+  {
+   "id": "MX-09",
+   "pais": "MX",
+   "nombre": "Mole poblano",
+   "descripcion": "Pollo en salsa de especias, frutos secos y chocolate (versión adaptada)",
+   "tipo": "Principal",
+   "tiempoTexto": "2 h",
+   "tiempoMin": 120,
+   "dificultad": "Difícil",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": true,
+   "porciones": 4,
+   "ingredientes": [
+    {
+     "id": "i1",
+     "nombre": "Muslos y patas-muslo de pollo",
+     "cantidad": 1,
+     "unidad": "kg"
+    },
+    {
+     "id": "i2",
+     "nombre": "Cebolla, en cuartos",
+     "cantidad": 1,
+     "unidad": "u",
+     "plural": "cebollas, en cuartos",
+     "nota": "para hervir el pollo"
+    },
+    {
+     "id": "i3",
+     "nombre": "Ajo, entero",
+     "cantidad": 2,
+     "unidad": "diente",
+     "nota": "para hervir el pollo"
+    },
+    {
+     "id": "i4",
+     "nombre": "Laurel",
+     "cantidad": 2,
+     "unidad": "hoja"
+    },
+    {
+     "id": "i5",
+     "nombre": "Sal",
+     "cantidad": 1,
+     "unidad": "cdta",
+     "nota": "para hervir el pollo"
+    },
+    {
+     "id": "i6",
+     "nombre": "Almendras",
+     "cantidad": 50,
+     "unidad": "g"
+    },
+    {
+     "id": "i7",
+     "nombre": "Maní tostado, sin sal",
+     "cantidad": 50,
+     "unidad": "g"
+    },
+    {
+     "id": "i8",
+     "nombre": "Semillas de sésamo",
+     "cantidad": 3,
+     "unidad": "cda"
+    },
+    {
+     "id": "i9",
+     "nombre": "Pasas de uva",
+     "cantidad": 40,
+     "unidad": "g"
+    },
+    {
+     "id": "i10",
+     "nombre": "Pan de molde, tostado",
+     "cantidad": 1,
+     "unidad": "u",
+     "plural": "rebanadas de pan de molde, tostadas"
+    },
+    {
+     "id": "i11",
+     "nombre": "Aceite",
+     "cantidad": 3,
+     "unidad": "cda"
+    },
+    {
+     "id": "i12",
+     "nombre": "Cebolla",
+     "cantidad": 0.5,
+     "unidad": "u",
+     "plural": "cebollas",
+     "nota": "para el mole"
+    },
+    {
+     "id": "i13",
+     "nombre": "Ajo",
+     "cantidad": 2,
+     "unidad": "diente",
+     "nota": "para el mole"
+    },
+    {
+     "id": "i14",
+     "nombre": "Tomates perita",
+     "cantidad": 300,
+     "unidad": "g"
+    },
+    {
+     "id": "i15",
+     "nombre": "Pimentón dulce",
+     "cantidad": 3,
+     "unidad": "cda"
+    },
+    {
+     "id": "i16",
+     "nombre": "Ají molido",
+     "cantidad": 1,
+     "unidad": "cdta",
+     "nota": "a gusto"
+    },
+    {
+     "id": "i17",
+     "nombre": "Canela molida",
+     "cantidad": 0.5,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i18",
+     "nombre": "Clavo de olor",
+     "cantidad": 2,
+     "unidad": "u",
+     "plural": "clavos de olor"
+    },
+    {
+     "id": "i19",
+     "nombre": "Pimienta negra molida",
+     "cantidad": 0.5,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i20",
+     "nombre": "Chocolate amargo (70 % de cacao)",
+     "cantidad": 40,
+     "unidad": "g"
+    },
+    {
+     "id": "i21",
+     "nombre": "Caldo de la cocción del pollo",
+     "cantidad": 600,
+     "unidad": "ml"
+    },
+    {
+     "id": "i22",
+     "nombre": "Azúcar",
+     "cantidad": 1,
+     "unidad": "cda"
+    },
+    {
+     "id": "i23",
+     "nombre": "Sal",
+     "cantidad": 1,
+     "unidad": "cdta",
+     "nota": "para el mole, probá y ajustá"
+    },
+    {
+     "id": "i24",
+     "nombre": "Semillas de sésamo tostadas",
+     "cantidad": 1,
+     "unidad": "cda",
+     "nota": "para decorar"
+    }
+   ],
+   "pasos": [
+    {
+     "titulo": "Hervir el pollo",
+     "texto": "Poné {i1} de pollo en una olla con agua que lo cubra, la cebolla en cuartos, {i3} de ajo, {i4} de laurel y {i5} de sal. Hervilo a fuego suave hasta que esté cocido. Sacalo y colá el caldo: vas a necesitar {i21} para el mole.",
+     "timerSeg": 1800
+    },
+    {
+     "titulo": "Tostar los frutos secos",
+     "texto": "En una sartén seca, a fuego medio, tostá {i6} de almendras, {i7} de maní y {i8} de sésamo, revolviendo hasta que tomen color, sin que se quemen. Pasalos a un bowl.",
+     "timerSeg": 300
+    },
+    {
+     "titulo": "Sofreír",
+     "texto": "En la misma sartén calentá {i11} de aceite y sofreí la media cebolla, {i13} de ajo, {i14} de tomates, el pan tostado y {i9} de pasas, hasta que se ablanden.",
+     "timerSeg": 480
+    },
+    {
+     "titulo": "Licuar",
+     "texto": "Pasá todo a la licuadora junto con los frutos secos, {i15} de pimentón, {i16} de ají molido, {i17} de canela, {i18}, {i19} de pimienta y una taza del caldo del pollo. Licuá hasta que quede completamente liso. Llená la licuadora hasta la mitad como máximo y tapá con un trapo, porque los ingredientes calientes salpican."
+    },
+    {
+     "titulo": "Freír la pasta",
+     "texto": "En una olla calentá un chorrito de aceite y volcá la pasta de mole con cuidado, porque salpica. Cociná revolviendo, hasta que se oscurezca y se espese.",
+     "timerSeg": 600
+    },
+    {
+     "titulo": "Hervir el mole",
+     "texto": "Agregá {i21} de caldo, {i20} de chocolate picado, {i22} de azúcar y {i23} de sal. Cociná a fuego bajo, revolviendo seguido para que no se pegue, hasta que tenga la consistencia de una salsa cremosa.",
+     "timerSeg": 2400
+    },
+    {
+     "titulo": "Sumar el pollo",
+     "texto": "Agregá el pollo al mole y cociná unos minutos para que tome sabor. Probá y corregí la sal y el dulzor.",
+     "timerSeg": 600
+    },
+    {
+     "titulo": "Servir",
+     "texto": "Serví el pollo con bastante mole por encima, {i24} de sésamo tostado y arroz rojo al costado."
+    }
+   ],
+   "consejos": [
+    "Es el plato festivo más famoso de México. El mole original lleva más de 20 ingredientes y varios chiles secos, y se cocina durante horas.",
+    "Cuanto más tiempo cocina el mole a fuego bajo, más se integran los sabores.",
+    "Mejora al día siguiente. Se puede hacer la salsa con anticipación y sumar el pollo al recalentar."
+   ],
+   "reemplazos": [
+    "Esta es una versión adaptada: los chiles secos mulato, ancho y pasilla no se consiguen. Usé pimentón dulce con un poco de ají molido, que da un sabor parecido pero más simple.",
+    "Chocolate: tiene que ser amargo, sin leche. El chocolate para taza mexicano es el original, pero no se consigue.",
+    "Pasta de maní: si no tenés maní, podés usar más almendras."
+   ],
+   "notaPorciones": "Usá una olla grande para más porciones. Los tiempos de cocción no cambian al modificar las porciones."
+  },
+  {
+   "id": "MX-10",
+   "pais": "MX",
+   "nombre": "Guacamole con totopos",
+   "descripcion": "Puré de palta con limón, cebolla y cilantro",
+   "tipo": "Entrada",
+   "tiempoTexto": "15 min",
+   "tiempoMin": 15,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Parcial",
+   "vegetariano": true,
+   "desarrollada": true,
+   "porciones": 4,
+   "ingredientes": [
+    {
+     "id": "i1",
+     "nombre": "Paltas maduras",
+     "cantidad": 3,
+     "unidad": "u",
+     "plural": "paltas maduras"
+    },
+    {
+     "id": "i2",
+     "nombre": "Cebolla chica, picada fina",
+     "cantidad": 0.5,
+     "unidad": "u",
+     "plural": "cebollas chicas, picadas finas"
+    },
+    {
+     "id": "i3",
+     "nombre": "Cilantro fresco picado",
+     "cantidad": 3,
+     "unidad": "cda"
+    },
+    {
+     "id": "i4",
+     "nombre": "Jugo de limón",
+     "cantidad": 3,
+     "unidad": "cda"
+    },
+    {
+     "id": "i5",
+     "nombre": "Ají picante fresco, picado",
+     "cantidad": null,
+     "unidad": "",
+     "nota": "opcional"
+    },
+    {
+     "id": "i6",
+     "nombre": "Tomate, sin semillas y en cubitos",
+     "cantidad": 1,
+     "unidad": "u",
+     "plural": "tomates, sin semillas y en cubitos",
+     "nota": "opcional"
+    },
+    {
+     "id": "i7",
+     "nombre": "Sal",
+     "cantidad": 1,
+     "unidad": "cdta"
+    },
+    {
+     "id": "i8",
+     "nombre": "Tortillas de maíz",
+     "cantidad": 6,
+     "unidad": "u",
+     "plural": "tortillas de maíz",
+     "nota": "para los totopos"
+    },
+    {
+     "id": "i9",
+     "nombre": "Aceite",
+     "cantidad": 1,
+     "unidad": "cda",
+     "nota": "para los totopos"
+    },
+    {
+     "id": "i10",
+     "nombre": "Sal",
+     "cantidad": 1,
+     "unidad": "pizca",
+     "nota": "para los totopos"
+    }
+   ],
+   "pasos": [
+    {
+     "titulo": "Hacer los totopos",
+     "texto": "Precalentá el horno a 200 °C. Cortá cada una de las {i8} en 6 triángulos. Ponelos en una placa en una sola capa, pincelalos con {i9} de aceite y salalos con {i10} de sal. Horneá dándolos vuelta a la mitad del tiempo, hasta que estén dorados y crocantes. Se endurecen al enfriarse.",
+     "timerSeg": 600
+    },
+    {
+     "titulo": "Preparar las paltas",
+     "texto": "Mientras tanto, abrí {i1}, sacá los carozos y la pulpa. Aplastala con un tenedor, dejando algunos trozos."
+    },
+    {
+     "titulo": "Mezclar el guacamole",
+     "texto": "Agregá la cebolla, {i3} de cilantro, {i4} de jugo de limón, el ají picante, el tomate y {i7} de sal. Mezclá y probá. Corregí con más limón o más sal."
+    },
+    {
+     "titulo": "Servir",
+     "texto": "Serví el guacamole enseguida, con los totopos al costado."
+    }
+   ],
+   "consejos": [
+    "Las paltas tienen que estar bien maduras: ceden un poco al apretarlas con el dedo.",
+    "Si lo preparás antes, tapalo con film en contacto directo con la superficie para que no se oscurezca.",
+    "El jugo de limón sirve de sabor y para frenar el oscurecimiento."
+   ],
+   "reemplazos": [
+    "Tortillas de maíz: si no las conseguís, usá tortillas de trigo chicas, que se venden en muchos supermercados. También se pueden hacer en casa con harina de maíz precocida (la de las arepas), agua tibia y sal.",
+    "Totopos: también se pueden comprar hechos, en bolsa, en la sección de snacks.",
+    "Cilantro: si no te gusta, reemplazalo por perejil."
+   ],
+   "notaPorciones": "El guacamole se oscurece rápido, así que conviene prepararlo para consumirlo enseguida. Los tiempos de cocción no cambian al modificar las porciones."
+  },
+  {
+   "id": "IT-01",
+   "pais": "IT",
+   "nombre": "Cacio e pepe",
+   "descripcion": "Pasta con queso pecorino y pimienta negra",
+   "tipo": "Principal",
+   "tiempoTexto": "20 min",
+   "tiempoMin": 20,
+   "dificultad": "Media",
+   "ingredientesAR": "Parcial",
+   "vegetariano": true,
+   "desarrollada": false
+  },
+  {
+   "id": "IT-02",
+   "pais": "IT",
+   "nombre": "Carbonara",
+   "descripcion": "Pasta con huevo, panceta y queso",
+   "tipo": "Principal",
+   "tiempoTexto": "25 min",
+   "tiempoMin": 25,
+   "dificultad": "Media",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "IT-03",
+   "pais": "IT",
+   "nombre": "Risotto alla milanese",
+   "descripcion": "Arroz cremoso con azafrán",
+   "tipo": "Principal",
+   "tiempoTexto": "40 min",
+   "tiempoMin": 40,
+   "dificultad": "Media",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "IT-04",
+   "pais": "IT",
+   "nombre": "Lasagna alla bolognese",
+   "descripcion": "Pasta en capas con ragú y bechamel",
+   "tipo": "Principal",
+   "tiempoTexto": "2 h",
+   "tiempoMin": 120,
+   "dificultad": "Media",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "IT-05",
+   "pais": "IT",
+   "nombre": "Osso buco",
+   "descripcion": "Jarrete de ternera estofado con vino y verduras",
+   "tipo": "Principal",
+   "tiempoTexto": "2 h 30",
+   "tiempoMin": 150,
+   "dificultad": "Media",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "IT-06",
+   "pais": "IT",
+   "nombre": "Saltimbocca alla romana",
+   "descripcion": "Escalopes de ternera con jamón y salvia",
+   "tipo": "Principal",
+   "tiempoTexto": "30 min",
+   "tiempoMin": 30,
+   "dificultad": "Media",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "IT-07",
+   "pais": "IT",
+   "nombre": "Pollo alla cacciatora",
+   "descripcion": "Pollo estofado con tomate, vino y hierbas",
+   "tipo": "Principal",
+   "tiempoTexto": "1 h",
+   "tiempoMin": 60,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "IT-08",
+   "pais": "IT",
+   "nombre": "Minestrone",
+   "descripcion": "Sopa espesa de verduras y legumbres",
+   "tipo": "Sopa",
+   "tiempoTexto": "1 h",
+   "tiempoMin": 60,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": true,
+   "desarrollada": false
+  },
+  {
+   "id": "IT-09",
+   "pais": "IT",
+   "nombre": "Pasta alla norma",
+   "descripcion": "Pasta con berenjena frita, tomate y ricota salada",
+   "tipo": "Principal",
+   "tiempoTexto": "40 min",
+   "tiempoMin": 40,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Parcial",
+   "vegetariano": true,
+   "desarrollada": false
+  },
+  {
+   "id": "IT-10",
+   "pais": "IT",
+   "nombre": "Parmigiana di melanzane",
+   "descripcion": "Berenjenas gratinadas con tomate y queso",
+   "tipo": "Principal",
+   "tiempoTexto": "1 h 15",
+   "tiempoMin": 75,
+   "dificultad": "Media",
+   "ingredientesAR": "Sí",
+   "vegetariano": true,
+   "desarrollada": false
+  },
+  {
+   "id": "IN-01",
+   "pais": "IN",
+   "nombre": "Dal tadka",
+   "descripcion": "Lentejas cocidas con especias tostadas",
+   "tipo": "Guiso",
+   "tiempoTexto": "40 min",
+   "tiempoMin": 40,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Parcial",
+   "vegetariano": true,
+   "desarrollada": false
+  },
+  {
+   "id": "IN-02",
+   "pais": "IN",
+   "nombre": "Pollo al curry",
+   "descripcion": "Pollo en salsa de cebolla, tomate y especias",
+   "tipo": "Principal",
+   "tiempoTexto": "50 min",
+   "tiempoMin": 50,
+   "dificultad": "Media",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "IN-03",
+   "pais": "IN",
+   "nombre": "Butter chicken",
+   "descripcion": "Pollo en salsa cremosa de tomate y manteca",
+   "tipo": "Principal",
+   "tiempoTexto": "1 h",
+   "tiempoMin": 60,
+   "dificultad": "Media",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "IN-04",
+   "pais": "IN",
+   "nombre": "Chana masala",
+   "descripcion": "Garbanzos en salsa especiada de tomate",
+   "tipo": "Guiso",
+   "tiempoTexto": "45 min",
+   "tiempoMin": 45,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Parcial",
+   "vegetariano": true,
+   "desarrollada": false
+  },
+  {
+   "id": "IN-05",
+   "pais": "IN",
+   "nombre": "Palak paneer",
+   "descripcion": "Espinaca cremosa con cubos de queso fresco",
+   "tipo": "Principal",
+   "tiempoTexto": "40 min",
+   "tiempoMin": 40,
+   "dificultad": "Media",
+   "ingredientesAR": "Parcial",
+   "vegetariano": true,
+   "desarrollada": false
+  },
+  {
+   "id": "IN-06",
+   "pais": "IN",
+   "nombre": "Biryani de pollo",
+   "descripcion": "Arroz basmati especiado en capas con pollo",
+   "tipo": "Principal",
+   "tiempoTexto": "1 h 30",
+   "tiempoMin": 90,
+   "dificultad": "Difícil",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "IN-07",
+   "pais": "IN",
+   "nombre": "Aloo gobi",
+   "descripcion": "Papa y coliflor salteadas con cúrcuma y especias",
+   "tipo": "Principal",
+   "tiempoTexto": "35 min",
+   "tiempoMin": 35,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Parcial",
+   "vegetariano": true,
+   "desarrollada": false
+  },
+  {
+   "id": "IN-08",
+   "pais": "IN",
+   "nombre": "Rajma",
+   "descripcion": "Porotos rojos en salsa espesa de tomate",
+   "tipo": "Guiso",
+   "tiempoTexto": "1 h",
+   "tiempoMin": 60,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Parcial",
+   "vegetariano": true,
+   "desarrollada": false
+  },
+  {
+   "id": "IN-09",
+   "pais": "IN",
+   "nombre": "Kheema",
+   "descripcion": "Carne molida especiada con arvejas",
+   "tipo": "Principal",
+   "tiempoTexto": "40 min",
+   "tiempoMin": 40,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "IN-10",
+   "pais": "IN",
+   "nombre": "Pollo tandoori",
+   "descripcion": "Pollo marinado en yogur y especias, asado al horno",
+   "tipo": "Principal",
+   "tiempoTexto": "1 h + marinado",
+   "tiempoMin": 60,
+   "dificultad": "Media",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "PE-01",
+   "pais": "PE",
+   "nombre": "Ceviche clásico",
+   "descripcion": "Pescado fresco curado en limón con cebolla y ají",
+   "tipo": "Entrada",
+   "tiempoTexto": "25 min",
+   "tiempoMin": 25,
+   "dificultad": "Media",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "PE-02",
+   "pais": "PE",
+   "nombre": "Lomo saltado",
+   "descripcion": "Tiras de carne salteadas con cebolla, tomate y papas fritas",
+   "tipo": "Principal",
+   "tiempoTexto": "30 min",
+   "tiempoMin": 30,
+   "dificultad": "Media",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "PE-03",
+   "pais": "PE",
+   "nombre": "Ají de gallina",
+   "descripcion": "Pollo deshilachado en crema de ají amarillo",
+   "tipo": "Principal",
+   "tiempoTexto": "1 h",
+   "tiempoMin": 60,
+   "dificultad": "Media",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "PE-04",
+   "pais": "PE",
+   "nombre": "Arroz con pollo peruano",
+   "descripcion": "Arroz verde con cilantro y pollo",
+   "tipo": "Principal",
+   "tiempoTexto": "1 h",
+   "tiempoMin": 60,
+   "dificultad": "Media",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "PE-05",
+   "pais": "PE",
+   "nombre": "Papa a la huancaína",
+   "descripcion": "Papas con salsa de queso y ají",
+   "tipo": "Entrada",
+   "tiempoTexto": "30 min",
+   "tiempoMin": 30,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Parcial",
+   "vegetariano": true,
+   "desarrollada": false
+  },
+  {
+   "id": "PE-06",
+   "pais": "PE",
+   "nombre": "Causa limeña",
+   "descripcion": "Puré de papa amarilla en capas relleno de pollo o atún",
+   "tipo": "Entrada",
+   "tiempoTexto": "50 min",
+   "tiempoMin": 50,
+   "dificultad": "Media",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "PE-07",
+   "pais": "PE",
+   "nombre": "Tallarines verdes",
+   "descripcion": "Fideos con salsa de albahaca y espinaca, con bife",
+   "tipo": "Principal",
+   "tiempoTexto": "40 min",
+   "tiempoMin": 40,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "PE-08",
+   "pais": "PE",
+   "nombre": "Seco de res",
+   "descripcion": "Guiso de carne con cilantro, servido con arroz y porotos",
+   "tipo": "Guiso",
+   "tiempoTexto": "1 h 30",
+   "tiempoMin": 90,
+   "dificultad": "Media",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "PE-09",
+   "pais": "PE",
+   "nombre": "Pollo a la brasa",
+   "descripcion": "Pollo marinado y asado con papas",
+   "tipo": "Principal",
+   "tiempoTexto": "1 h 30 + marinado",
+   "tiempoMin": 90,
+   "dificultad": "Media",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "PE-10",
+   "pais": "PE",
+   "nombre": "Aguadito de pollo",
+   "descripcion": "Sopa de pollo con arroz, cilantro y arvejas",
+   "tipo": "Sopa",
+   "tiempoTexto": "1 h",
+   "tiempoMin": 60,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "GR-01",
+   "pais": "GR",
+   "nombre": "Moussaka",
+   "descripcion": "Capas de berenjena, carne y bechamel gratinadas",
+   "tipo": "Principal",
+   "tiempoTexto": "1 h 45",
+   "tiempoMin": 105,
+   "dificultad": "Media",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "GR-02",
+   "pais": "GR",
+   "nombre": "Pastitsio",
+   "descripcion": "Pasta al horno con carne y bechamel",
+   "tipo": "Principal",
+   "tiempoTexto": "1 h 30",
+   "tiempoMin": 90,
+   "dificultad": "Media",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "GR-03",
+   "pais": "GR",
+   "nombre": "Souvlaki de pollo",
+   "descripcion": "Brochetas de pollo marinado con limón y orégano",
+   "tipo": "Principal",
+   "tiempoTexto": "40 min",
+   "tiempoMin": 40,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "GR-04",
+   "pais": "GR",
+   "nombre": "Gyros casero",
+   "descripcion": "Carne laminada especiada servida con pan y tzatziki",
+   "tipo": "Principal",
+   "tiempoTexto": "1 h",
+   "tiempoMin": 60,
+   "dificultad": "Media",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "GR-05",
+   "pais": "GR",
+   "nombre": "Horiatiki",
+   "descripcion": "Ensalada griega de tomate, pepino, aceitunas y feta",
+   "tipo": "Ensalada",
+   "tiempoTexto": "15 min",
+   "tiempoMin": 15,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": true,
+   "desarrollada": false
+  },
+  {
+   "id": "GR-06",
+   "pais": "GR",
+   "nombre": "Gemista",
+   "descripcion": "Tomates y morrones rellenos de arroz y hierbas",
+   "tipo": "Principal",
+   "tiempoTexto": "1 h 15",
+   "tiempoMin": 75,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": true,
+   "desarrollada": false
+  },
+  {
+   "id": "GR-07",
+   "pais": "GR",
+   "nombre": "Spanakopita",
+   "descripcion": "Tarta de espinaca y feta con masa filo",
+   "tipo": "Principal",
+   "tiempoTexto": "1 h",
+   "tiempoMin": 60,
+   "dificultad": "Media",
+   "ingredientesAR": "Parcial",
+   "vegetariano": true,
+   "desarrollada": false
+  },
+  {
+   "id": "GR-08",
+   "pais": "GR",
+   "nombre": "Giouvetsi",
+   "descripcion": "Carne con pasta orzo cocida al horno",
+   "tipo": "Principal",
+   "tiempoTexto": "2 h",
+   "tiempoMin": 120,
+   "dificultad": "Media",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "GR-09",
+   "pais": "GR",
+   "nombre": "Fasolada",
+   "descripcion": "Sopa de porotos blancos con tomate",
+   "tipo": "Sopa",
+   "tiempoTexto": "1 h 30",
+   "tiempoMin": 90,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": true,
+   "desarrollada": false
+  },
+  {
+   "id": "GR-10",
+   "pais": "GR",
+   "nombre": "Keftedes",
+   "descripcion": "Albóndigas de carne con menta y cebolla",
+   "tipo": "Principal",
+   "tiempoTexto": "40 min",
+   "tiempoMin": 40,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "MA-01",
+   "pais": "MA",
+   "nombre": "Tajín de pollo con limón y aceitunas",
+   "descripcion": "Pollo estofado con limón en conserva y especias",
+   "tipo": "Principal",
+   "tiempoTexto": "1 h 15",
+   "tiempoMin": 75,
+   "dificultad": "Media",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "MA-02",
+   "pais": "MA",
+   "nombre": "Cuscús con siete verduras",
+   "descripcion": "Cuscús con verduras y garbanzos en caldo especiado",
+   "tipo": "Principal",
+   "tiempoTexto": "1 h 15",
+   "tiempoMin": 75,
+   "dificultad": "Media",
+   "ingredientesAR": "Sí",
+   "vegetariano": true,
+   "desarrollada": false
+  },
+  {
+   "id": "MA-03",
+   "pais": "MA",
+   "nombre": "Tajín de cordero con ciruelas",
+   "descripcion": "Cordero estofado con ciruelas y almendras",
+   "tipo": "Principal",
+   "tiempoTexto": "2 h",
+   "tiempoMin": 120,
+   "dificultad": "Media",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "MA-04",
+   "pais": "MA",
+   "nombre": "Harira",
+   "descripcion": "Sopa de tomate, lentejas y garbanzos",
+   "tipo": "Sopa",
+   "tiempoTexto": "1 h",
+   "tiempoMin": 60,
+   "dificultad": "Media",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "MA-05",
+   "pais": "MA",
+   "nombre": "Kefta tajín",
+   "descripcion": "Albóndigas especiadas con huevo en salsa de tomate",
+   "tipo": "Principal",
+   "tiempoTexto": "45 min",
+   "tiempoMin": 45,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "MA-06",
+   "pais": "MA",
+   "nombre": "Pastela de pollo",
+   "descripcion": "Pastel de masa filo relleno de pollo, almendras y canela",
+   "tipo": "Principal",
+   "tiempoTexto": "2 h",
+   "tiempoMin": 120,
+   "dificultad": "Difícil",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "MA-07",
+   "pais": "MA",
+   "nombre": "Zaalouk",
+   "descripcion": "Ensalada cocida de berenjena y tomate",
+   "tipo": "Entrada",
+   "tiempoTexto": "40 min",
+   "tiempoMin": 40,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": true,
+   "desarrollada": false
+  },
+  {
+   "id": "MA-08",
+   "pais": "MA",
+   "nombre": "Mechoui",
+   "descripcion": "Cordero asado lento con especias",
+   "tipo": "Principal",
+   "tiempoTexto": "3 h",
+   "tiempoMin": 180,
+   "dificultad": "Media",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "MA-09",
+   "pais": "MA",
+   "nombre": "Tajín de verduras",
+   "descripcion": "Verduras estofadas con especias marroquíes",
+   "tipo": "Principal",
+   "tiempoTexto": "1 h",
+   "tiempoMin": 60,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": true,
+   "desarrollada": false
+  },
+  {
+   "id": "MA-10",
+   "pais": "MA",
+   "nombre": "Brochetas de kefta",
+   "descripcion": "Carne molida especiada en brochetas a la parrilla",
+   "tipo": "Principal",
+   "tiempoTexto": "35 min",
+   "tiempoMin": 35,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "DE-01",
+   "pais": "DE",
+   "nombre": "Wiener Schnitzel",
+   "descripcion": "Milanesa fina de ternera con limón",
+   "tipo": "Principal",
+   "tiempoTexto": "40 min",
+   "tiempoMin": 40,
+   "dificultad": "Media",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "DE-02",
+   "pais": "DE",
+   "nombre": "Kartoffelsalat",
+   "descripcion": "Ensalada de papa con vinagre o mayonesa",
+   "tipo": "Ensalada",
+   "tiempoTexto": "40 min",
+   "tiempoMin": 40,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": true,
+   "desarrollada": false
+  },
+  {
+   "id": "DE-03",
+   "pais": "DE",
+   "nombre": "Rouladen",
+   "descripcion": "Rollos de carne rellenos de panceta, mostaza y pepinillo",
+   "tipo": "Principal",
+   "tiempoTexto": "2 h",
+   "tiempoMin": 120,
+   "dificultad": "Media",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "DE-04",
+   "pais": "DE",
+   "nombre": "Sauerbraten",
+   "descripcion": "Carne asada marinada en vinagre (marinado de días)",
+   "tipo": "Principal",
+   "tiempoTexto": "2 h 30 + marinado",
+   "tiempoMin": 150,
+   "dificultad": "Difícil",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "DE-05",
+   "pais": "DE",
+   "nombre": "Currywurst",
+   "descripcion": "Salchicha cortada con salsa de tomate y curry",
+   "tipo": "Principal",
+   "tiempoTexto": "25 min",
+   "tiempoMin": 25,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "DE-06",
+   "pais": "DE",
+   "nombre": "Käsespätzle",
+   "descripcion": "Fideos caseros gratinados con queso y cebolla",
+   "tipo": "Principal",
+   "tiempoTexto": "40 min",
+   "tiempoMin": 40,
+   "dificultad": "Media",
+   "ingredientesAR": "Sí",
+   "vegetariano": true,
+   "desarrollada": false
+  },
+  {
+   "id": "DE-07",
+   "pais": "DE",
+   "nombre": "Gulasch alemán",
+   "descripcion": "Guiso de carne con paprika y cebolla",
+   "tipo": "Guiso",
+   "tiempoTexto": "2 h",
+   "tiempoMin": 120,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "DE-08",
+   "pais": "DE",
+   "nombre": "Linsensuppe",
+   "descripcion": "Sopa espesa de lentejas con salchicha",
+   "tipo": "Sopa",
+   "tiempoTexto": "1 h",
+   "tiempoMin": 60,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "DE-09",
+   "pais": "DE",
+   "nombre": "Schweinebraten",
+   "descripcion": "Asado de cerdo con corteza y salsa",
+   "tipo": "Principal",
+   "tiempoTexto": "2 h 30",
+   "tiempoMin": 150,
+   "dificultad": "Media",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "DE-10",
+   "pais": "DE",
+   "nombre": "Königsberger Klopse",
+   "descripcion": "Albóndigas en salsa blanca con alcaparras",
+   "tipo": "Principal",
+   "tiempoTexto": "1 h",
+   "tiempoMin": 60,
+   "dificultad": "Media",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "PL-01",
+   "pais": "PL",
+   "nombre": "Pierogi ruskie",
+   "descripcion": "Empanadas hervidas rellenas de papa y queso",
+   "tipo": "Principal",
+   "tiempoTexto": "1 h 30",
+   "tiempoMin": 90,
+   "dificultad": "Media",
+   "ingredientesAR": "Sí",
+   "vegetariano": true,
+   "desarrollada": false
+  },
+  {
+   "id": "PL-02",
+   "pais": "PL",
+   "nombre": "Bigos",
+   "descripcion": "Guiso de repollo fermentado con varias carnes",
+   "tipo": "Guiso",
+   "tiempoTexto": "2 h 30",
+   "tiempoMin": 150,
+   "dificultad": "Media",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "PL-03",
+   "pais": "PL",
+   "nombre": "Gołąbki",
+   "descripcion": "Rollos de repollo rellenos de carne y arroz",
+   "tipo": "Principal",
+   "tiempoTexto": "1 h 45",
+   "tiempoMin": 105,
+   "dificultad": "Media",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "PL-04",
+   "pais": "PL",
+   "nombre": "Żurek",
+   "descripcion": "Sopa agria de centeno con salchicha y huevo",
+   "tipo": "Sopa",
+   "tiempoTexto": "1 h 30",
+   "tiempoMin": 90,
+   "dificultad": "Difícil",
+   "ingredientesAR": "No",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "PL-05",
+   "pais": "PL",
+   "nombre": "Kotlet schabowy",
+   "descripcion": "Milanesa de cerdo con papas",
+   "tipo": "Principal",
+   "tiempoTexto": "40 min",
+   "tiempoMin": 40,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "PL-06",
+   "pais": "PL",
+   "nombre": "Rosół",
+   "descripcion": "Caldo de pollo con fideos finos",
+   "tipo": "Sopa",
+   "tiempoTexto": "2 h",
+   "tiempoMin": 120,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "PL-07",
+   "pais": "PL",
+   "nombre": "Kopytka",
+   "descripcion": "Ñoquis de papa con manteca o salsa",
+   "tipo": "Principal",
+   "tiempoTexto": "50 min",
+   "tiempoMin": 50,
+   "dificultad": "Media",
+   "ingredientesAR": "Sí",
+   "vegetariano": true,
+   "desarrollada": false
+  },
+  {
+   "id": "PL-08",
+   "pais": "PL",
+   "nombre": "Barszcz czerwony",
+   "descripcion": "Sopa de remolacha",
+   "tipo": "Sopa",
+   "tiempoTexto": "1 h 15",
+   "tiempoMin": 75,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": true,
+   "desarrollada": false
+  },
+  {
+   "id": "PL-09",
+   "pais": "PL",
+   "nombre": "Gulasz polski",
+   "descripcion": "Guiso de carne con cebolla y paprika",
+   "tipo": "Guiso",
+   "tiempoTexto": "2 h",
+   "tiempoMin": 120,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "PL-10",
+   "pais": "PL",
+   "nombre": "Placki ziemniaczane",
+   "descripcion": "Tortitas de papa rallada fritas",
+   "tipo": "Principal",
+   "tiempoTexto": "35 min",
+   "tiempoMin": 35,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": true,
+   "desarrollada": false
+  },
+  {
+   "id": "UA-01",
+   "pais": "UA",
+   "nombre": "Borsch",
+   "descripcion": "Sopa de remolacha, repollo y carne",
+   "tipo": "Sopa",
+   "tiempoTexto": "1 h 45",
+   "tiempoMin": 105,
+   "dificultad": "Media",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "UA-02",
+   "pais": "UA",
+   "nombre": "Varenyky",
+   "descripcion": "Empanadas hervidas de papa y queso",
+   "tipo": "Principal",
+   "tiempoTexto": "1 h 30",
+   "tiempoMin": 90,
+   "dificultad": "Media",
+   "ingredientesAR": "Sí",
+   "vegetariano": true,
+   "desarrollada": false
+  },
+  {
+   "id": "UA-03",
+   "pais": "UA",
+   "nombre": "Holubtsi",
+   "descripcion": "Rollos de repollo con carne y arroz en salsa de tomate",
+   "tipo": "Principal",
+   "tiempoTexto": "2 h",
+   "tiempoMin": 120,
+   "dificultad": "Media",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "UA-04",
+   "pais": "UA",
+   "nombre": "Pollo Kiev",
+   "descripcion": "Pechuga rellena de manteca con hierbas, empanada y frita",
+   "tipo": "Principal",
+   "tiempoTexto": "1 h",
+   "tiempoMin": 60,
+   "dificultad": "Media",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "UA-05",
+   "pais": "UA",
+   "nombre": "Deruny",
+   "descripcion": "Tortitas de papa con crema agria",
+   "tipo": "Principal",
+   "tiempoTexto": "35 min",
+   "tiempoMin": 35,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": true,
+   "desarrollada": false
+  },
+  {
+   "id": "UA-06",
+   "pais": "UA",
+   "nombre": "Kapusniak",
+   "descripcion": "Sopa de repollo con carne y papa",
+   "tipo": "Sopa",
+   "tiempoTexto": "1 h",
+   "tiempoMin": 60,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "UA-07",
+   "pais": "UA",
+   "nombre": "Kotleti",
+   "descripcion": "Hamburguesas caseras fritas con puré",
+   "tipo": "Principal",
+   "tiempoTexto": "40 min",
+   "tiempoMin": 40,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "UA-08",
+   "pais": "UA",
+   "nombre": "Tushkovana kartoplya",
+   "descripcion": "Papas estofadas con carne",
+   "tipo": "Guiso",
+   "tiempoTexto": "1 h 30",
+   "tiempoMin": 90,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "UA-09",
+   "pais": "UA",
+   "nombre": "Vinegret",
+   "descripcion": "Ensalada de remolacha, papa, zanahoria y pepinillos",
+   "tipo": "Ensalada",
+   "tiempoTexto": "45 min",
+   "tiempoMin": 45,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": true,
+   "desarrollada": false
+  },
+  {
+   "id": "UA-10",
+   "pais": "UA",
+   "nombre": "Banosh",
+   "descripcion": "Polenta cremosa con queso y panceta crocante",
+   "tipo": "Principal",
+   "tiempoTexto": "40 min",
+   "tiempoMin": 40,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "SE-01",
+   "pais": "SE",
+   "nombre": "Köttbullar",
+   "descripcion": "Albóndigas con salsa cremosa, puré y mermelada de arándanos",
+   "tipo": "Principal",
+   "tiempoTexto": "50 min",
+   "tiempoMin": 50,
+   "dificultad": "Media",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "SE-02",
+   "pais": "SE",
+   "nombre": "Pyttipanna",
+   "descripcion": "Papas, carne y cebolla salteadas con huevo frito",
+   "tipo": "Principal",
+   "tiempoTexto": "35 min",
+   "tiempoMin": 35,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "SE-03",
+   "pais": "SE",
+   "nombre": "Raggmunk",
+   "descripcion": "Tortitas de papa con panceta",
+   "tipo": "Principal",
+   "tiempoTexto": "40 min",
+   "tiempoMin": 40,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "SE-04",
+   "pais": "SE",
+   "nombre": "Ärtsoppa",
+   "descripcion": "Sopa de arvejas con jamón (remojo previo)",
+   "tipo": "Sopa",
+   "tiempoTexto": "2 h + remojo",
+   "tiempoMin": 120,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "SE-05",
+   "pais": "SE",
+   "nombre": "Janssons frestelse",
+   "descripcion": "Gratín de papa, cebolla y anchoas con crema",
+   "tipo": "Principal",
+   "tiempoTexto": "1 h 15",
+   "tiempoMin": 75,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "SE-06",
+   "pais": "SE",
+   "nombre": "Kåldolmar",
+   "descripcion": "Rollos de repollo rellenos de carne",
+   "tipo": "Principal",
+   "tiempoTexto": "2 h",
+   "tiempoMin": 120,
+   "dificultad": "Media",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "SE-07",
+   "pais": "SE",
+   "nombre": "Gravad lax",
+   "descripcion": "Salmón curado con sal, azúcar y eneldo, con salsa de mostaza",
+   "tipo": "Entrada",
+   "tiempoTexto": "20 min + curado",
+   "tiempoMin": 20,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "SE-08",
+   "pais": "SE",
+   "nombre": "Skagenröra",
+   "descripcion": "Ensalada de camarones con mayonesa, eneldo y limón",
+   "tipo": "Entrada",
+   "tiempoTexto": "20 min",
+   "tiempoMin": 20,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "SE-09",
+   "pais": "SE",
+   "nombre": "Biff à la Lindström",
+   "descripcion": "Hamburguesa de carne con remolacha y alcaparras",
+   "tipo": "Principal",
+   "tiempoTexto": "45 min",
+   "tiempoMin": 45,
+   "dificultad": "Media",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "SE-10",
+   "pais": "SE",
+   "nombre": "Kroppkakor",
+   "descripcion": "Bolas de papa rellenas de panceta, hervidas",
+   "tipo": "Principal",
+   "tiempoTexto": "1 h 30",
+   "tiempoMin": 90,
+   "dificultad": "Media",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "PY-01",
+   "pais": "PY",
+   "nombre": "Sopa paraguaya",
+   "descripcion": "Torta salada de maíz, queso y cebolla",
+   "tipo": "Principal",
+   "tiempoTexto": "1 h",
+   "tiempoMin": 60,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": true,
+   "desarrollada": false
+  },
+  {
+   "id": "PY-02",
+   "pais": "PY",
+   "nombre": "Bori bori",
+   "descripcion": "Sopa de pollo con bolitas de maíz y queso",
+   "tipo": "Sopa",
+   "tiempoTexto": "1 h 15",
+   "tiempoMin": 75,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "PY-03",
+   "pais": "PY",
+   "nombre": "So'o yosopy",
+   "descripcion": "Sopa de carne molida con arroz o fideos",
+   "tipo": "Sopa",
+   "tiempoTexto": "1 h",
+   "tiempoMin": 60,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "PY-04",
+   "pais": "PY",
+   "nombre": "Mbaipy so'o",
+   "descripcion": "Guiso espeso de maíz molido y carne",
+   "tipo": "Guiso",
+   "tiempoTexto": "1 h 30",
+   "tiempoMin": 90,
+   "dificultad": "Media",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "PY-05",
+   "pais": "PY",
+   "nombre": "Chipa guasu",
+   "descripcion": "Torta de choclo con queso, al horno",
+   "tipo": "Guarnición",
+   "tiempoTexto": "1 h",
+   "tiempoMin": 60,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": true,
+   "desarrollada": false
+  },
+  {
+   "id": "PY-06",
+   "pais": "PY",
+   "nombre": "Asado paraguayo",
+   "descripcion": "Costilla a la parrilla con mandioca",
+   "tipo": "Principal",
+   "tiempoTexto": "2 h",
+   "tiempoMin": 120,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "PY-07",
+   "pais": "PY",
+   "nombre": "Pastel mandi'o",
+   "descripcion": "Empanadas fritas de masa de mandioca rellenas de carne",
+   "tipo": "Principal",
+   "tiempoTexto": "1 h 15",
+   "tiempoMin": 75,
+   "dificultad": "Media",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "PY-08",
+   "pais": "PY",
+   "nombre": "Payagua mascada",
+   "descripcion": "Bola de carne rellena de huevo, frita o hervida",
+   "tipo": "Principal",
+   "tiempoTexto": "1 h",
+   "tiempoMin": 60,
+   "dificultad": "Media",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "PY-09",
+   "pais": "PY",
+   "nombre": "Pira caldo",
+   "descripcion": "Sopa espesa de pescado",
+   "tipo": "Sopa",
+   "tiempoTexto": "50 min",
+   "tiempoMin": 50,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "PY-10",
+   "pais": "PY",
+   "nombre": "Arroz quesú",
+   "descripcion": "Arroz con queso y carne molida",
+   "tipo": "Principal",
+   "tiempoTexto": "40 min",
+   "tiempoMin": 40,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "BR-01",
+   "pais": "BR",
+   "nombre": "Feijoada",
+   "descripcion": "Porotos negros con cortes de cerdo y chorizo (remojo previo)",
+   "tipo": "Guiso",
+   "tiempoTexto": "3 h + remojo",
+   "tiempoMin": 180,
+   "dificultad": "Media",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "BR-02",
+   "pais": "BR",
+   "nombre": "Moqueca baiana",
+   "descripcion": "Guiso de pescado con leche de coco y pimiento",
+   "tipo": "Guiso",
+   "tiempoTexto": "50 min",
+   "tiempoMin": 50,
+   "dificultad": "Media",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "BR-03",
+   "pais": "BR",
+   "nombre": "Strogonoff",
+   "descripcion": "Carne o pollo en salsa cremosa con champiñones",
+   "tipo": "Principal",
+   "tiempoTexto": "35 min",
+   "tiempoMin": 35,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "BR-04",
+   "pais": "BR",
+   "nombre": "Frango com quiabo",
+   "descripcion": "Pollo guisado con okra",
+   "tipo": "Guiso",
+   "tiempoTexto": "1 h",
+   "tiempoMin": 60,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "BR-05",
+   "pais": "BR",
+   "nombre": "Baião de dois",
+   "descripcion": "Arroz con porotos, queso y panceta",
+   "tipo": "Principal",
+   "tiempoTexto": "45 min",
+   "tiempoMin": 45,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "BR-06",
+   "pais": "BR",
+   "nombre": "Escondidinho",
+   "descripcion": "Puré de mandioca gratinado sobre carne desmenuzada",
+   "tipo": "Principal",
+   "tiempoTexto": "1 h 15",
+   "tiempoMin": 75,
+   "dificultad": "Media",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "BR-07",
+   "pais": "BR",
+   "nombre": "Picadinho",
+   "descripcion": "Carne en cubos guisada con verduras",
+   "tipo": "Guiso",
+   "tiempoTexto": "50 min",
+   "tiempoMin": 50,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "BR-08",
+   "pais": "BR",
+   "nombre": "Vatapá",
+   "descripcion": "Crema de pan, camarones, coco y maní",
+   "tipo": "Principal",
+   "tiempoTexto": "1 h",
+   "tiempoMin": 60,
+   "dificultad": "Media",
+   "ingredientesAR": "No",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "BR-09",
+   "pais": "BR",
+   "nombre": "Arroz carreteiro",
+   "descripcion": "Arroz con carne seca o charque",
+   "tipo": "Principal",
+   "tiempoTexto": "40 min",
+   "tiempoMin": 40,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "BR-10",
+   "pais": "BR",
+   "nombre": "Galinhada",
+   "descripcion": "Arroz con pollo y cúrcuma",
+   "tipo": "Principal",
+   "tiempoTexto": "1 h",
+   "tiempoMin": 60,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "ES-01",
+   "pais": "ES",
+   "nombre": "Tortilla española",
+   "descripcion": "Tortilla de papa y cebolla",
+   "tipo": "Principal",
+   "tiempoTexto": "40 min",
+   "tiempoMin": 40,
+   "dificultad": "Media",
+   "ingredientesAR": "Sí",
+   "vegetariano": true,
+   "desarrollada": true,
+   "porciones": 4,
+   "notaPorciones": "El tamaño de la sartén importa: 24 cm para 4 porciones. Con más porciones usá una sartén más grande o hacé dos tortillas. Los tiempos no cambian al escalar.",
+   "ingredientes": [
+    {
+     "id": "i1",
+     "nombre": "Papas (de pulpa amarilla si hay)",
+     "cantidad": 500,
+     "unidad": "g",
+     "nota": "peladas"
+    },
+    {
+     "id": "i2",
+     "nombre": "Cebolla grande",
+     "cantidad": 1,
+     "unidad": "u",
+     "plural": "cebollas grandes"
+    },
+    {
+     "id": "i3",
+     "nombre": "Huevo",
+     "cantidad": 6,
+     "unidad": "u",
+     "plural": "huevos"
+    },
+    {
+     "id": "i4",
+     "nombre": "Aceite de girasol o de oliva",
+     "cantidad": 150,
+     "unidad": "ml",
+     "nota": "para pochar las papas"
+    },
+    {
+     "id": "i5",
+     "nombre": "Sal",
+     "cantidad": 1,
+     "unidad": "cdta"
+    }
+   ],
+   "pasos": [
+    {
+     "titulo": "Cortar",
+     "texto": "Cortá las papas ({i1}) en láminas finas de unos 3 mm. Cortá la cebolla en juliana fina."
+    },
+    {
+     "titulo": "Pochar las papas",
+     "texto": "En una sartén honda calentá {i4} de aceite a fuego medio-bajo. Agregá papas y cebolla con un poco de sal. Cociná removiendo de a ratos hasta que estén blandas, sin dorarse.",
+     "timerSeg": 1200
+    },
+    {
+     "titulo": "Escurrir",
+     "texto": "Pasá las papas y la cebolla a un colador y dejá escurrir el aceite. Guardá una cucharada de ese aceite para la sartén."
+    },
+    {
+     "titulo": "Mezclar con el huevo",
+     "texto": "Batí {i3} con {i5} de sal. Sumá las papas escurridas, mezclá y dejá reposar.",
+     "timerSeg": 300
+    },
+    {
+     "titulo": "Cuajar el primer lado",
+     "texto": "Calentá la sartén de 24 cm con una cucharada de aceite. Volcá la mezcla, emparejá y cociná a fuego medio-bajo hasta que los bordes cuajen.",
+     "timerSeg": 240
+    },
+    {
+     "titulo": "Dar vuelta",
+     "texto": "Apoyá un plato más grande que la sartén, dá vuelta de un solo movimiento y volvé a deslizar la tortilla a la sartén. Cociná del otro lado hasta que esté dorada y apenas jugosa por dentro.",
+     "timerSeg": 180
+    },
+    {
+     "titulo": "Reposar y servir",
+     "texto": "Dejala reposar unos minutos antes de cortar. Se come tibia o a temperatura ambiente.",
+     "timerSeg": 300
+    }
+   ],
+   "consejos": [
+    "Cuanto más tiempo repose la mezcla antes de cocinar, más cremosa queda.",
+    "Si te cuesta darla vuelta, usá una sartén antiadherente y un plato bien plano.",
+    "Hay quienes la hacen sin cebolla: es parte del debate español. Las dos versiones son válidas."
+   ],
+   "reemplazos": [
+    "Si no tenés sartén de 24 cm, una de 20 cm da una tortilla más alta y necesita un poco más de cocción."
+   ]
+  },
+  {
+   "id": "ES-02",
+   "pais": "ES",
+   "nombre": "Paella valenciana",
+   "descripcion": "Arroz con pollo, conejo y verduras",
+   "tipo": "Principal",
+   "tiempoTexto": "1 h 15",
+   "tiempoMin": 75,
+   "dificultad": "Media",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "ES-03",
+   "pais": "ES",
+   "nombre": "Gazpacho andaluz",
+   "descripcion": "Sopa fría de tomate, pepino y morrón",
+   "tipo": "Sopa",
+   "tiempoTexto": "15 min + frío",
+   "tiempoMin": 15,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": true,
+   "desarrollada": false
+  },
+  {
+   "id": "ES-04",
+   "pais": "ES",
+   "nombre": "Cocido madrileño",
+   "descripcion": "Garbanzos con carnes y verduras en dos servicios",
+   "tipo": "Guiso",
+   "tiempoTexto": "3 h",
+   "tiempoMin": 180,
+   "dificultad": "Media",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "ES-05",
+   "pais": "ES",
+   "nombre": "Fabada asturiana",
+   "descripcion": "Porotos blancos con chorizo y morcilla (remojo previo)",
+   "tipo": "Guiso",
+   "tiempoTexto": "3 h + remojo",
+   "tiempoMin": 180,
+   "dificultad": "Media",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "ES-06",
+   "pais": "ES",
+   "nombre": "Pollo al ajillo",
+   "descripcion": "Pollo dorado con ajo y vino blanco",
+   "tipo": "Principal",
+   "tiempoTexto": "40 min",
+   "tiempoMin": 40,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "ES-07",
+   "pais": "ES",
+   "nombre": "Albóndigas en salsa",
+   "descripcion": "Albóndigas en salsa de tomate y vino",
+   "tipo": "Principal",
+   "tiempoTexto": "1 h",
+   "tiempoMin": 60,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "ES-08",
+   "pais": "ES",
+   "nombre": "Lentejas estofadas",
+   "descripcion": "Lentejas con chorizo y verduras",
+   "tipo": "Guiso",
+   "tiempoTexto": "1 h",
+   "tiempoMin": 60,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "ES-09",
+   "pais": "ES",
+   "nombre": "Merluza en salsa verde",
+   "descripcion": "Merluza con perejil, ajo y almejas",
+   "tipo": "Principal",
+   "tiempoTexto": "35 min",
+   "tiempoMin": 35,
+   "dificultad": "Media",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "ES-10",
+   "pais": "ES",
+   "nombre": "Patatas bravas",
+   "descripcion": "Papas fritas con salsa picante",
+   "tipo": "Guarnición",
+   "tiempoTexto": "45 min",
+   "tiempoMin": 45,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": true,
+   "desarrollada": false
+  },
+  {
+   "id": "FR-01",
+   "pais": "FR",
+   "nombre": "Ratatouille",
+   "descripcion": "Verduras de verano estofadas al horno o en olla",
+   "tipo": "Principal",
+   "tiempoTexto": "1 h",
+   "tiempoMin": 60,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": true,
+   "desarrollada": false
+  },
+  {
+   "id": "FR-02",
+   "pais": "FR",
+   "nombre": "Boeuf bourguignon",
+   "descripcion": "Carne estofada en vino tinto con panceta y champiñones",
+   "tipo": "Guiso",
+   "tiempoTexto": "3 h",
+   "tiempoMin": 180,
+   "dificultad": "Media",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "FR-03",
+   "pais": "FR",
+   "nombre": "Coq au vin",
+   "descripcion": "Pollo estofado en vino con cebollitas y champiñones",
+   "tipo": "Guiso",
+   "tiempoTexto": "2 h",
+   "tiempoMin": 120,
+   "dificultad": "Media",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "FR-04",
+   "pais": "FR",
+   "nombre": "Quiche lorraine",
+   "descripcion": "Tarta salada de panceta, huevo y crema",
+   "tipo": "Principal",
+   "tiempoTexto": "1 h 10",
+   "tiempoMin": 70,
+   "dificultad": "Media",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "FR-05",
+   "pais": "FR",
+   "nombre": "Soupe à l'oignon gratinée",
+   "descripcion": "Sopa de cebolla caramelizada con pan y queso gratinado",
+   "tipo": "Sopa",
+   "tiempoTexto": "1 h 15",
+   "tiempoMin": 75,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "FR-06",
+   "pais": "FR",
+   "nombre": "Gratin dauphinois",
+   "descripcion": "Papas al horno con crema y ajo",
+   "tipo": "Guarnición",
+   "tiempoTexto": "1 h 15",
+   "tiempoMin": 75,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": true,
+   "desarrollada": false
+  },
+  {
+   "id": "FR-07",
+   "pais": "FR",
+   "nombre": "Cassoulet",
+   "descripcion": "Porotos blancos con pato, cerdo y salchichas (remojo previo)",
+   "tipo": "Guiso",
+   "tiempoTexto": "3 h + remojo",
+   "tiempoMin": 180,
+   "dificultad": "Difícil",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "FR-08",
+   "pais": "FR",
+   "nombre": "Pot-au-feu",
+   "descripcion": "Carne hervida con verduras de raíz y su caldo",
+   "tipo": "Guiso",
+   "tiempoTexto": "3 h",
+   "tiempoMin": 180,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "FR-09",
+   "pais": "FR",
+   "nombre": "Steak au poivre",
+   "descripcion": "Bife con salsa de pimienta y crema, con papas fritas",
+   "tipo": "Principal",
+   "tiempoTexto": "35 min",
+   "tiempoMin": 35,
+   "dificultad": "Media",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "FR-10",
+   "pais": "FR",
+   "nombre": "Salade niçoise",
+   "descripcion": "Ensalada de atún, huevo, papas, chauchas y aceitunas",
+   "tipo": "Ensalada",
+   "tiempoTexto": "30 min",
+   "tiempoMin": 30,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "TH-01",
+   "pais": "TH",
+   "nombre": "Pad thai",
+   "descripcion": "Fideos de arroz salteados con huevo, maní y tamarindo",
+   "tipo": "Principal",
+   "tiempoTexto": "30 min",
+   "tiempoMin": 30,
+   "dificultad": "Media",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "TH-02",
+   "pais": "TH",
+   "nombre": "Curry verde de pollo",
+   "descripcion": "Pollo en curry verde con leche de coco",
+   "tipo": "Principal",
+   "tiempoTexto": "40 min",
+   "tiempoMin": 40,
+   "dificultad": "Media",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "TH-03",
+   "pais": "TH",
+   "nombre": "Tom yum goong",
+   "descripcion": "Sopa picante y ácida de camarones con limoncillo",
+   "tipo": "Sopa",
+   "tiempoTexto": "35 min",
+   "tiempoMin": 35,
+   "dificultad": "Media",
+   "ingredientesAR": "No",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "TH-04",
+   "pais": "TH",
+   "nombre": "Pad kra pao",
+   "descripcion": "Carne molida salteada con albahaca y chile, con arroz y huevo",
+   "tipo": "Principal",
+   "tiempoTexto": "20 min",
+   "tiempoMin": 20,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "TH-05",
+   "pais": "TH",
+   "nombre": "Curry rojo",
+   "descripcion": "Curry rojo de res o pollo con leche de coco",
+   "tipo": "Principal",
+   "tiempoTexto": "40 min",
+   "tiempoMin": 40,
+   "dificultad": "Media",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "TH-06",
+   "pais": "TH",
+   "nombre": "Massaman",
+   "descripcion": "Curry suave de res, papa y maní",
+   "tipo": "Guiso",
+   "tiempoTexto": "1 h 30",
+   "tiempoMin": 90,
+   "dificultad": "Media",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "TH-07",
+   "pais": "TH",
+   "nombre": "Larb gai",
+   "descripcion": "Ensalada de pollo molido con lima, menta y arroz tostado",
+   "tipo": "Ensalada",
+   "tiempoTexto": "25 min",
+   "tiempoMin": 25,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "TH-08",
+   "pais": "TH",
+   "nombre": "Tom kha gai",
+   "descripcion": "Sopa de pollo con leche de coco y galanga",
+   "tipo": "Sopa",
+   "tiempoTexto": "35 min",
+   "tiempoMin": 35,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "TH-09",
+   "pais": "TH",
+   "nombre": "Khao pad",
+   "descripcion": "Arroz frito tailandés con huevo y verduras",
+   "tipo": "Principal",
+   "tiempoTexto": "20 min",
+   "tiempoMin": 20,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "TH-10",
+   "pais": "TH",
+   "nombre": "Som tam",
+   "descripcion": "Ensalada picante de papaya verde",
+   "tipo": "Ensalada",
+   "tiempoTexto": "20 min",
+   "tiempoMin": 20,
+   "dificultad": "Media",
+   "ingredientesAR": "No",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "KR-01",
+   "pais": "KR",
+   "nombre": "Bibimbap",
+   "descripcion": "Arroz con verduras salteadas, carne, huevo y salsa de chile",
+   "tipo": "Principal",
+   "tiempoTexto": "50 min",
+   "tiempoMin": 50,
+   "dificultad": "Media",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "KR-02",
+   "pais": "KR",
+   "nombre": "Bulgogi",
+   "descripcion": "Res marinada en soja, pera y ajo, a la plancha",
+   "tipo": "Principal",
+   "tiempoTexto": "30 min + marinado",
+   "tiempoMin": 30,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "KR-03",
+   "pais": "KR",
+   "nombre": "Kimchi jjigae",
+   "descripcion": "Guiso picante de kimchi con cerdo y tofu",
+   "tipo": "Guiso",
+   "tiempoTexto": "40 min",
+   "tiempoMin": 40,
+   "dificultad": "Media",
+   "ingredientesAR": "No",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "KR-04",
+   "pais": "KR",
+   "nombre": "Japchae",
+   "descripcion": "Fideos de batata salteados con verduras y carne",
+   "tipo": "Principal",
+   "tiempoTexto": "40 min",
+   "tiempoMin": 40,
+   "dificultad": "Media",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "KR-05",
+   "pais": "KR",
+   "nombre": "Dak galbi",
+   "descripcion": "Pollo picante salteado con repollo y batata",
+   "tipo": "Principal",
+   "tiempoTexto": "35 min",
+   "tiempoMin": 35,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "KR-06",
+   "pais": "KR",
+   "nombre": "Tteokbokki",
+   "descripcion": "Bastones de arroz en salsa dulce y picante",
+   "tipo": "Principal",
+   "tiempoTexto": "30 min",
+   "tiempoMin": 30,
+   "dificultad": "Fácil",
+   "ingredientesAR": "No",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "KR-07",
+   "pais": "KR",
+   "nombre": "Kimchi bokkeumbap",
+   "descripcion": "Arroz frito con kimchi y huevo",
+   "tipo": "Principal",
+   "tiempoTexto": "20 min",
+   "tiempoMin": 20,
+   "dificultad": "Fácil",
+   "ingredientesAR": "No",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "KR-08",
+   "pais": "KR",
+   "nombre": "Doenjang jjigae",
+   "descripcion": "Guiso de pasta de soja fermentada con verduras y tofu",
+   "tipo": "Guiso",
+   "tiempoTexto": "35 min",
+   "tiempoMin": 35,
+   "dificultad": "Fácil",
+   "ingredientesAR": "No",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "KR-09",
+   "pais": "KR",
+   "nombre": "Samgyeopsal",
+   "descripcion": "Panceta a la plancha con lechuga y salsas",
+   "tipo": "Principal",
+   "tiempoTexto": "30 min",
+   "tiempoMin": 30,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "KR-10",
+   "pais": "KR",
+   "nombre": "Sundubu jjigae",
+   "descripcion": "Guiso picante de tofu suave",
+   "tipo": "Guiso",
+   "tiempoTexto": "30 min",
+   "tiempoMin": 30,
+   "dificultad": "Fácil",
+   "ingredientesAR": "No",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "TR-01",
+   "pais": "TR",
+   "nombre": "Köfte",
+   "descripcion": "Albóndigas especiadas a la plancha",
+   "tipo": "Principal",
+   "tiempoTexto": "35 min",
+   "tiempoMin": 35,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "TR-02",
+   "pais": "TR",
+   "nombre": "Mercimek çorbası",
+   "descripcion": "Sopa de lentejas rojas con limón",
+   "tipo": "Sopa",
+   "tiempoTexto": "35 min",
+   "tiempoMin": 35,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": true,
+   "desarrollada": false
+  },
+  {
+   "id": "TR-03",
+   "pais": "TR",
+   "nombre": "Pilav con orzo",
+   "descripcion": "Arroz cocido con fideos tostados",
+   "tipo": "Guarnición",
+   "tiempoTexto": "25 min",
+   "tiempoMin": 25,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": true,
+   "desarrollada": false
+  },
+  {
+   "id": "TR-04",
+   "pais": "TR",
+   "nombre": "Karnıyarık",
+   "descripcion": "Berenjena rellena de carne molida y tomate",
+   "tipo": "Principal",
+   "tiempoTexto": "1 h 15",
+   "tiempoMin": 75,
+   "dificultad": "Media",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "TR-05",
+   "pais": "TR",
+   "nombre": "İmam bayıldı",
+   "descripcion": "Berenjena rellena de cebolla y tomate, servida fría",
+   "tipo": "Principal",
+   "tiempoTexto": "1 h 15",
+   "tiempoMin": 75,
+   "dificultad": "Media",
+   "ingredientesAR": "Sí",
+   "vegetariano": true,
+   "desarrollada": false
+  },
+  {
+   "id": "TR-06",
+   "pais": "TR",
+   "nombre": "Adana kebab",
+   "descripcion": "Brocheta de carne picada de cordero con pimiento picante",
+   "tipo": "Principal",
+   "tiempoTexto": "40 min",
+   "tiempoMin": 40,
+   "dificultad": "Media",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "TR-07",
+   "pais": "TR",
+   "nombre": "Tavuk şiş",
+   "descripcion": "Brochetas de pollo marinadas en yogur y especias",
+   "tipo": "Principal",
+   "tiempoTexto": "30 min + marinado",
+   "tiempoMin": 30,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "TR-08",
+   "pais": "TR",
+   "nombre": "Mantı",
+   "descripcion": "Ravioles pequeños con yogur y manteca de pimentón",
+   "tipo": "Principal",
+   "tiempoTexto": "1 h 45",
+   "tiempoMin": 105,
+   "dificultad": "Difícil",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  },
+  {
+   "id": "TR-09",
+   "pais": "TR",
+   "nombre": "Kuru fasulye",
+   "descripcion": "Porotos blancos guisados con tomate (remojo previo)",
+   "tipo": "Guiso",
+   "tiempoTexto": "1 h 30 + remojo",
+   "tiempoMin": 90,
+   "dificultad": "Fácil",
+   "ingredientesAR": "Sí",
+   "vegetariano": true,
+   "desarrollada": false
+  },
+  {
+   "id": "TR-10",
+   "pais": "TR",
+   "nombre": "Lahmacun",
+   "descripcion": "Masa fina cubierta de carne y especias, horneada",
+   "tipo": "Principal",
+   "tiempoTexto": "1 h",
+   "tiempoMin": 60,
+   "dificultad": "Media",
+   "ingredientesAR": "Parcial",
+   "vegetariano": false,
+   "desarrollada": false
+  }
+ ]
+}
